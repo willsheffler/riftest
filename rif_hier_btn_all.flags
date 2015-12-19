@@ -8,8 +8,8 @@
 -dump_ntries 0
 -renumber_pdb
 
--hash_cart_resl              0.5
--hash_angle_resl            10.0
+-hash_cart_resl              0.6
+-hash_angle_resl            11.0
 
 -rif_hier:outfile btn_all_0.5.rif.gz
 
@@ -43,7 +43,7 @@
 
 -rif_hier:beam_size_M 1000.0
 -rif_hier:hash_preallocate_mult 0.125
--rif_hier:min_score_frac        3.0
+-rif_hier:min_score_frac        2.0
 -rif_hier:max_rf_bounding_ratio 4.0
 
 -redundency_hack 0.0
