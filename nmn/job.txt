@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=32 nohup /work/sheffler/rosetta/rif_dock/source/cmake/build_omp/rif_hier @rif_hier_template.flags > logfile &

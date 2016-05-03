@@ -1,0 +1,87 @@
+#####################################################################################
+# input files you will need to change (unless you ran the rif_hier example as-is)
+#####################################################################################
+
+-rif_dock:target_pdb    rif_test_1ffw/1ffw_BonA.0.rif.gz_target.pdb
+-rif_dock:target_res    1ffw_A_res.txt
+
+-rif_dock:target_bounding_xmaps rif_test_1ffw/1ffw_BonA.0.rif.gz_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps rif_test_1ffw/1ffw_BonA.0.rif.gz_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps rif_test_1ffw/1ffw_BonA.0.rif.gz_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps rif_test_1ffw/1ffw_BonA.0.rif.gz_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps rif_test_1ffw/1ffw_BonA.0.rif.gz_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            rif_test_1ffw/1ffw_BonA.0.rif.gz
+
+# scaffolds are input here IF you use -scaffold_res, you must have files for all scaffolds. if you *dont* have
+# explicit residue lists for each scaffold, it'll select crudely based on sasa and optionally secondary structure
+# the automatic residue selection needs work.
+-rif_dock:scaffolds     rif_test_1ffw/1ffw_BonA.0.rif.gz__ALIGNED__1ffw_B.pdb
+-rif_dock:scaffold_res  1ffw_B_ressurf.txt
+-rif_dock::dont_use_scaffold_loops false
+
+# this *must* be set based on what came out of the rif generator
+-rif_dock:target_rf_cache rif_test_1ffw/__RF_1ffw_A.pdb_CEN_trhash20333636_resl0.1875_osamp2_replonlybdry
+-rif_dock:target_rf_resl 0.1875
+-rif_dock:target_rf_oversample 2
+
+# directory for any extra generated data... if you generate scaffold rf grids, they will go here for later re-use
+# default setup shouldn't use this, I think
+-rif_dock:data_cache_dir /work/sheffler/data/scheme_data
+
+# this is the most important parameter.. total runtime will be roughly linear in it's size. if you aren't getting good results
+# increasing this *may* solve the problem
+-rif_dock::beam_size_M 10.0
+
+# do you want to pack the RIF rotamers? you probably do
+-hack_pack true
+-rif_dock::pack_iter_mult 4.0
+-rif_dock::hack_pack_frac 0.25
+
+# a redundancy filter thershold, roughly in angstroms
+# NOTE: this currently does not take designed rotamers into account... two solutions could be
+# quite close in space but have very different rotamers on them... you will lose such things
+-rif_dock:redundancy_filter_mag 1.0
+
+# max score of a single hbond 1.0 is low, but used with upweight_multi_hbond you will see some hbonds
+-rif_dock:hbond_weight 1.0
+# bonus factor for bidentate hbonds to target 1.0 could up to double the hbond score
+-rif_dock:upweight_multi_hbond 1.0
+
+# weight of rotamer-target interactions vs. rotamer-rotamer interactions
+-rif_dock:upweight_iface 1.1
+
+
+# a crude favor-native type weight... probably good to set to -0.5 or so
+# will probably be a PSSM weight feature in the future
+# set to 0 for example because it's totally cleating
+-bonus_to_native_scaffold_res -0.0
+# you may also want to add the native rotamers when packing... slows things down a bit but might help
+# this is also totally cheating if you're doing a benchmark dock
+-add_native_scaffold_rots_when_packing 0
+
+# mostly for debugging benchmark cases, you can force output of solutions that are close to the input
+-rif_dock:force_output_if_close_to_input       1.0
+-rif_dock:force_output_if_close_to_input_num   0
+
+-rif_dock:dokfile 1ffw_resfile_test.dok
+
+
+
+# false may not work correctly unless you carefully prepare the scaffold
+-rif_dock:scaffold_to_ala true
+
+-align_output_to_scaffold false
+
+# this can make docking big scaffolds with small targets much faster *but* will take some calculation
+# per scaffold... if you have a standard scaffold set and don't mind spending some time generating
+# the scaffold rf grids
+-rif_dock:use_scaffold_bounding_grids false
+-rif_dock::rf_resl 0.5
+-rif_dock::rf_oversample 2
+
+# don't change this
+-rif_dock:rotrf_resl   0.3
+-rif_dock:rotrf_spread 0.0
+-rif_dock:rotrf_cache_dir /work/sheffler/data/scheme_data/rot_rf_tables_03_0/
+
+-add_orbitals

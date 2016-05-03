@@ -1,0 +1,420 @@
+pilotscaff2 52 x 1m 1.6hsf first run:
+real	10m24.966s
+user	430m57.310s
+sys	0m37.177s
+second run (scaff data generated)
+real	7m1.524s
+user	293m26.396s
+sys	0m19.529s
+
+========================== scaffold RF data for biotin ==============================
+
+BEAM3 HSF1.6 scaff0.5
+rif score:    0 rank         0 dist0:    16.3866 packscore: -70.524 score: -37.510 rif: -36.873 steric:  -0.637 cluster:    2573 noCH_NTF2_bb-1944_000000000
+rif score:    1 rank        74 dist0:    16.0265 packscore: -66.343 score: -36.853 rif: -38.632 steric:   1.779 cluster:     101 noCH_NTF2_bb-1944_000000001
+rif score:    2 rank       176 dist0:    17.2918 packscore: -64.873 score: -39.501 rif: -40.232 steric:   0.731 cluster:     666 noCH_NTF2_bb-1944_000000002
+rif score:    3 rank       248 dist0:    15.5636 packscore: -64.286 score: -36.202 rif: -36.227 steric:   0.025 cluster:     176 noCH_NTF2_bb-1944_000000003
+rif score:    4 rank       274 dist0:    14.5471 packscore: -64.016 score: -35.822 rif: -35.736 steric:  -0.087 cluster:      51 noCH_NTF2_bb-1944_000000004
+rif score:    5 rank       700 dist0:    15.3267 packscore: -61.421 score: -34.768 rif: -34.624 steric:  -0.144 cluster:     243 noCH_NTF2_bb-1944_000000005
+rif score:    6 rank      1423 dist0:    16.7009 packscore: -58.550 score: -38.564 rif: -39.564 steric:   1.000 cluster:     132 noCH_NTF2_bb-1944_000000006
+rif score:    7 rank      1424 dist0:    20.5491 packscore: -58.550 score: -37.567 rif: -37.818 steric:   0.251 cluster:     203 noCH_NTF2_bb-1944_000000007
+rif score:    8 rank      1438 dist0:    17.5887 packscore: -58.491 score: -35.055 rif: -37.431 steric:   2.376 cluster:     242 noCH_NTF2_bb-1944_000000008
+rif score:    9 rank      1696 dist0:    20.0055 packscore: -57.617 score: -38.842 rif: -38.887 steric:   0.045 cluster:     114 noCH_NTF2_bb-1944_000000009
+rif score:   10 rank      1947 dist0:    16.3675 packscore: -56.719 score: -35.721 rif: -35.628 steric:  -0.093 cluster:     155 noCH_NTF2_bb-1944_000000010
+rif score:   11 rank      2152 dist0:    20.4445 packscore: -56.013 score: -35.616 rif: -36.077 steric:   0.461 cluster:      63 noCH_NTF2_bb-1944_000000011
+rif score:   12 rank      2400 dist0:    17.6244 packscore: -55.186 score: -35.910 rif: -35.035 steric:  -0.875 cluster:      95 noCH_NTF2_bb-1944_000000012
+rif score:   13 rank      2491 dist0:    17.8649 packscore: -54.889 score: -35.305 rif: -36.043 steric:   0.739 cluster:      63 noCH_NTF2_bb-1944_000000013
+rif score:   14 rank      2687 dist0:    18.2357 packscore: -54.235 score: -35.767 rif: -36.204 steric:   0.436 cluster:      26 noCH_NTF2_bb-1944_000000014
+rif score:   15 rank      2693 dist0:    18.2526 packscore: -54.216 score: -35.260 rif: -36.657 steric:   1.398 cluster:      66 noCH_NTF2_bb-1944_000000015
+rif score:   16 rank      2827 dist0:    18.0918 packscore: -53.733 score: -39.340 rif: -38.096 steric:  -1.244 cluster:     220 noCH_NTF2_bb-1944_000000016
+rif score:   17 rank      3014 dist0:    19.0600 packscore: -53.051 score: -41.792 rif: -40.940 steric:  -0.853 cluster:     194 noCH_NTF2_bb-1944_000000017
+rif score:   18 rank      3272 dist0:    18.6969 packscore: -52.198 score: -34.437 rif: -33.770 steric:  -0.667 cluster:      85 noCH_NTF2_bb-1944_000000018
+rif score:   19 rank      3281 dist0:    18.6057 packscore: -52.149 score: -42.928 rif: -42.220 steric:  -0.707 cluster:      11 noCH_NTF2_bb-1944_000000019
+rif score:   20 rank      3609 dist0:    16.5322 packscore: -51.153 score: -34.701 rif: -36.321 steric:   1.620 cluster:      40 noCH_NTF2_bb-1944_000000020
+rif score:   21 rank      3621 dist0:    20.0576 packscore: -51.124 score: -37.323 rif: -36.595 steric:  -0.728 cluster:      31 noCH_NTF2_bb-1944_000000021
+rif score:   22 rank      3642 dist0:    19.3275 packscore: -51.079 score: -35.258 rif: -35.201 steric:  -0.057 cluster:      29 noCH_NTF2_bb-1944_000000022
+rif score:   23 rank      3696 dist0:    19.0735 packscore: -50.929 score: -34.730 rif: -34.232 steric:  -0.498 cluster:      22 noCH_NTF2_bb-1944_000000023
+rif score:   24 rank      3744 dist0:    18.5513 packscore: -50.795 score: -45.105 rif: -44.720 steric:  -0.385 cluster:     214 noCH_NTF2_bb-1944_000000024
+rif score:   25 rank      3759 dist0:    17.3783 packscore: -50.754 score: -34.399 rif: -35.313 steric:   0.914 cluster:       2 noCH_NTF2_bb-1944_000000025
+rif score:   26 rank      3831 dist0:       -nan packscore: -50.554 score: -40.580 rif: -40.294 steric:  -0.286 cluster:       7 noCH_NTF2_bb-1944_000000026
+rif score:   27 rank      3910 dist0:    16.4096 packscore: -50.289 score: -36.706 rif: -36.997 steric:   0.291 cluster:      14 noCH_NTF2_bb-1944_000000027
+rif score:   28 rank      3985 dist0:    16.0423 packscore: -50.044 score: -35.280 rif: -37.168 steric:   1.887 cluster:      23 noCH_NTF2_bb-1944_000000028
+rif score:   29 rank      4005 dist0:    17.6412 packscore: -49.998 score: -35.511 rif: -39.807 steric:   4.296 cluster:       8 noCH_NTF2_bb-1944_000000029
+rif score:   30 rank      4055 dist0:    18.2359 packscore: -49.836 score: -34.425 rif: -34.116 steric:  -0.308 cluster:       0 noCH_NTF2_bb-1944_000000030
+rif score:   31 rank      4226 dist0:    19.5030 packscore: -49.342 score: -41.259 rif: -40.517 steric:  -0.742 cluster:     127 noCH_NTF2_bb-1944_000000031
+rif score:   32 rank      4265 dist0:    16.4002 packscore: -49.206 score: -37.767 rif: -36.960 steric:  -0.807 cluster:      39 noCH_NTF2_bb-1944_000000032
+rif score:   33 rank      4310 dist0:    20.6949 packscore: -49.097 score: -35.320 rif: -34.874 steric:  -0.446 cluster:      12 noCH_NTF2_bb-1944_000000033
+rif score:   34 rank      4380 dist0:    18.9669 packscore: -48.903 score: -35.796 rif: -34.760 steric:  -1.036 cluster:      31 noCH_NTF2_bb-1944_000000034
+rif score:   35 rank      4382 dist0:    17.9701 packscore: -48.900 score: -37.819 rif: -36.554 steric:  -1.265 cluster:      40 noCH_NTF2_bb-1944_000000035
+rif score:   36 rank      4406 dist0:    19.8659 packscore: -48.832 score: -36.622 rif: -36.367 steric:  -0.255 cluster:       8 noCH_NTF2_bb-1944_000000036
+rif score:   37 rank      4569 dist0:    18.9530 packscore: -48.418 score: -35.327 rif: -36.936 steric:   1.610 cluster:       4 noCH_NTF2_bb-1944_000000037
+rif score:   38 rank      4627 dist0:    17.8836 packscore: -48.242 score: -34.582 rif: -34.860 steric:   0.278 cluster:       5 noCH_NTF2_bb-1944_000000038
+rif score:   39 rank      5127 dist0:    20.1981 packscore: -47.082 score: -34.672 rif: -33.890 steric:  -0.782 cluster:       6 noCH_NTF2_bb-1944_000000039
+rif score:   40 rank      5173 dist0:    17.5341 packscore: -46.974 score: -35.765 rif: -35.073 steric:  -0.693 cluster:       0 noCH_NTF2_bb-1944_000000040
+rif score:   41 rank      5376 dist0:    20.1705 packscore: -46.547 score: -39.342 rif: -39.018 steric:  -0.324 cluster:       6 noCH_NTF2_bb-1944_000000041
+rif score:   42 rank      5720 dist0:    17.6958 packscore: -45.890 score: -35.934 rif: -36.668 steric:   0.734 cluster:       2 noCH_NTF2_bb-1944_000000042
+rif score:   43 rank      5727 dist0:    20.5827 packscore: -45.880 score: -38.302 rif: -37.461 steric:  -0.841 cluster:       3 noCH_NTF2_bb-1944_000000043
+rif score:   44 rank      5794 dist0:    16.7508 packscore: -45.744 score: -34.386 rif: -37.866 steric:   3.480 cluster:       0 noCH_NTF2_bb-1944_000000044
+rif score:   45 rank      5903 dist0:    17.3110 packscore: -45.519 score: -36.700 rif: -36.680 steric:  -0.020 cluster:       1 noCH_NTF2_bb-1944_000000045
+rif score:   46 rank      5949 dist0:    17.7013 packscore: -45.427 score: -38.054 rif: -37.699 steric:  -0.355 cluster:       5 noCH_NTF2_bb-1944_000000046
+rif score:   47 rank      5957 dist0:    19.0304 packscore: -45.412 score: -39.422 rif: -38.141 steric:  -1.281 cluster:       6 noCH_NTF2_bb-1944_000000047
+rif score:   48 rank      6081 dist0:    18.4778 packscore: -45.189 score: -36.027 rif: -36.172 steric:   0.145 cluster:       1 noCH_NTF2_bb-1944_000000048
+rif score:   49 rank      6214 dist0:    15.9736 packscore: -44.951 score: -36.569 rif: -36.211 steric:  -0.358 cluster:       0 noCH_NTF2_bb-1944_000000049
+real	1m3.959s
+user	24m51.583s
+sys	0m16.420s
+du -scm rifdock_scaffold_data
+63	rifdock_scaffold_data
+
+BEAM3 HSF1.6 scaff0.25
+rif score:    0 rank         0 dist0:    16.0956 packscore: -71.370 score: -37.716 rif: -36.254 steric:  -1.463 cluster:    2185 noCH_NTF2_bb-1944_000000000
+rif score:    1 rank        43 dist0:    16.0265 packscore: -68.460 score: -39.301 rif: -38.642 steric:  -0.659 cluster:     107 noCH_NTF2_bb-1944_000000001
+rif score:    2 rank       140 dist0:    17.3054 packscore: -66.874 score: -39.132 rif: -38.812 steric:  -0.319 cluster:    1057 noCH_NTF2_bb-1944_000000002
+rif score:    3 rank       556 dist0:    14.5471 packscore: -64.102 score: -36.668 rif: -35.729 steric:  -0.939 cluster:      37 noCH_NTF2_bb-1944_000000003
+rif score:    4 rank       673 dist0:    16.7574 packscore: -63.543 score: -38.455 rif: -36.920 steric:  -1.535 cluster:     793 noCH_NTF2_bb-1944_000000004
+rif score:    5 rank       779 dist0:    16.0455 packscore: -63.122 score: -39.014 rif: -39.210 steric:   0.196 cluster:      95 noCH_NTF2_bb-1944_000000005
+rif score:    6 rank       795 dist0:    17.5832 packscore: -63.064 score: -40.302 rif: -41.393 steric:   1.091 cluster:     205 noCH_NTF2_bb-1944_000000006
+rif score:    7 rank       835 dist0:    15.9184 packscore: -62.949 score: -36.898 rif: -36.457 steric:  -0.441 cluster:       5 noCH_NTF2_bb-1944_000000007
+rif score:    8 rank      1980 dist0:    17.7557 packscore: -59.383 score: -40.205 rif: -39.795 steric:  -0.410 cluster:     241 noCH_NTF2_bb-1944_000000008
+rif score:    9 rank      1995 dist0:    17.9497 packscore: -59.347 score: -36.692 rif: -37.623 steric:   0.932 cluster:     111 noCH_NTF2_bb-1944_000000009
+rif score:   10 rank      2583 dist0:    19.9752 packscore: -57.625 score: -36.658 rif: -37.345 steric:   0.687 cluster:     101 noCH_NTF2_bb-1944_000000010
+rif score:   11 rank      2620 dist0:    20.3172 packscore: -57.490 score: -42.048 rif: -40.563 steric:  -1.484 cluster:      19 noCH_NTF2_bb-1944_000000011
+rif score:   12 rank      2662 dist0:    17.4477 packscore: -57.379 score: -37.990 rif: -37.782 steric:  -0.208 cluster:      72 noCH_NTF2_bb-1944_000000012
+rif score:   13 rank      2762 dist0:    20.4277 packscore: -57.048 score: -38.832 rif: -38.498 steric:  -0.333 cluster:      26 noCH_NTF2_bb-1944_000000013
+rif score:   14 rank      2771 dist0:    19.6548 packscore: -57.014 score: -38.227 rif: -37.119 steric:  -1.108 cluster:      41 noCH_NTF2_bb-1944_000000014
+rif score:   15 rank      2862 dist0:    17.9806 packscore: -56.726 score: -37.509 rif: -35.853 steric:  -1.656 cluster:      30 noCH_NTF2_bb-1944_000000015
+rif score:   16 rank      3028 dist0:    18.2357 packscore: -56.299 score: -37.110 rif: -36.214 steric:  -0.896 cluster:      24 noCH_NTF2_bb-1944_000000016
+rif score:   17 rank      3101 dist0:    18.5490 packscore: -56.090 score: -39.433 rif: -37.342 steric:  -2.091 cluster:     100 noCH_NTF2_bb-1944_000000017
+rif score:   18 rank      3124 dist0:    16.9306 packscore: -56.012 score: -36.702 rif: -35.750 steric:  -0.952 cluster:      76 noCH_NTF2_bb-1944_000000018
+rif score:   19 rank      3125 dist0:    15.4045 packscore: -56.011 score: -39.053 rif: -37.961 steric:  -1.092 cluster:      47 noCH_NTF2_bb-1944_000000019
+rif score:   20 rank      3306 dist0:    16.8884 packscore: -55.486 score: -37.044 rif: -36.680 steric:  -0.364 cluster:      28 noCH_NTF2_bb-1944_000000020
+rif score:   21 rank      3473 dist0:    17.8589 packscore: -55.016 score: -37.048 rif: -36.125 steric:  -0.922 cluster:      22 noCH_NTF2_bb-1944_000000021
+rif score:   22 rank      3521 dist0:    19.2912 packscore: -54.881 score: -38.578 rif: -36.741 steric:  -1.837 cluster:      79 noCH_NTF2_bb-1944_000000022
+rif score:   23 rank      3847 dist0:    18.1013 packscore: -53.931 score: -37.008 rif: -36.132 steric:  -0.876 cluster:       2 noCH_NTF2_bb-1944_000000023
+rif score:   24 rank      3922 dist0:    20.5154 packscore: -53.735 score: -36.875 rif: -38.652 steric:   1.777 cluster:      50 noCH_NTF2_bb-1944_000000024
+rif score:   25 rank      4069 dist0:    18.6057 packscore: -53.334 score: -43.850 rif: -42.227 steric:  -1.623 cluster:       4 noCH_NTF2_bb-1944_000000025
+rif score:   26 rank      4328 dist0:    17.3188 packscore: -52.610 score: -37.145 rif: -35.830 steric:  -1.315 cluster:       1 noCH_NTF2_bb-1944_000000026
+rif score:   27 rank      4366 dist0:    18.6419 packscore: -52.515 score: -37.332 rif: -36.020 steric:  -1.312 cluster:      23 noCH_NTF2_bb-1944_000000027
+rif score:   28 rank      4528 dist0:    17.6412 packscore: -52.072 score: -38.353 rif: -39.804 steric:   1.451 cluster:      17 noCH_NTF2_bb-1944_000000028
+rif score:   29 rank      4562 dist0:    18.2018 packscore: -51.980 score: -42.125 rif: -39.476 steric:  -2.649 cluster:     103 noCH_NTF2_bb-1944_000000029
+rif score:   30 rank      4565 dist0:    19.0239 packscore: -51.975 score: -37.448 rif: -35.238 steric:  -2.209 cluster:      59 noCH_NTF2_bb-1944_000000030
+rif score:   31 rank      4682 dist0:    16.7047 packscore: -51.665 score: -36.613 rif: -35.899 steric:  -0.713 cluster:       3 noCH_NTF2_bb-1944_000000031
+rif score:   32 rank      4696 dist0:    16.3931 packscore: -51.625 score: -37.564 rif: -36.114 steric:  -1.450 cluster:      31 noCH_NTF2_bb-1944_000000032
+rif score:   33 rank      4716 dist0:    18.9530 packscore: -51.567 score: -38.487 rif: -36.943 steric:  -1.544 cluster:       9 noCH_NTF2_bb-1944_000000033
+rif score:   34 rank      4824 dist0:    20.0960 packscore: -51.267 score: -39.250 rif: -38.510 steric:  -0.740 cluster:       5 noCH_NTF2_bb-1944_000000034
+rif score:   35 rank      4912 dist0:    17.9619 packscore: -51.020 score: -38.122 rif: -37.236 steric:  -0.886 cluster:       3 noCH_NTF2_bb-1944_000000035
+rif score:   36 rank      4925 dist0:    17.8978 packscore: -50.979 score: -38.396 rif: -39.507 steric:   1.111 cluster:       1 noCH_NTF2_bb-1944_000000036
+rif score:   37 rank      4953 dist0:    17.7844 packscore: -50.903 score: -36.759 rif: -37.304 steric:   0.546 cluster:      17 noCH_NTF2_bb-1944_000000037
+rif score:   38 rank      4963 dist0:    16.9869 packscore: -50.887 score: -38.227 rif: -37.834 steric:  -0.392 cluster:      12 noCH_NTF2_bb-1944_000000038
+rif score:   39 rank      5158 dist0:    19.3432 packscore: -50.363 score: -37.447 rif: -35.933 steric:  -1.514 cluster:       7 noCH_NTF2_bb-1944_000000039
+rif score:   40 rank      5196 dist0:    16.6023 packscore: -50.258 score: -36.676 rif: -36.917 steric:   0.241 cluster:       1 noCH_NTF2_bb-1944_000000040
+rif score:   41 rank      5285 dist0:    16.6627 packscore: -50.091 score: -37.148 rif: -34.557 steric:  -2.592 cluster:       8 noCH_NTF2_bb-1944_000000041
+rif score:   42 rank      5332 dist0:    17.6242 packscore: -49.974 score: -41.571 rif: -40.938 steric:  -0.632 cluster:       1 noCH_NTF2_bb-1944_000000042
+rif score:   43 rank      5481 dist0:    16.8560 packscore: -49.625 score: -38.589 rif: -37.712 steric:  -0.877 cluster:       0 noCH_NTF2_bb-1944_000000043
+rif score:   44 rank      5487 dist0:    18.6085 packscore: -49.603 score: -37.495 rif: -36.862 steric:  -0.633 cluster:       0 noCH_NTF2_bb-1944_000000044
+rif score:   45 rank      5574 dist0:    17.0291 packscore: -49.366 score: -36.818 rif: -37.468 steric:   0.650 cluster:       0 noCH_NTF2_bb-1944_000000045
+rif score:   46 rank      5615 dist0:    20.3041 packscore: -49.248 score: -37.784 rif: -36.570 steric:  -1.214 cluster:       6 noCH_NTF2_bb-1944_000000046
+rif score:   47 rank      5671 dist0:    18.4959 packscore: -49.114 score: -38.215 rif: -36.938 steric:  -1.277 cluster:       0 noCH_NTF2_bb-1944_000000047
+rif score:   48 rank      5704 dist0:    19.8123 packscore: -49.013 score: -41.255 rif: -41.110 steric:  -0.145 cluster:       3 noCH_NTF2_bb-1944_000000048
+rif score:   49 rank      5916 dist0:    17.6505 packscore: -48.565 score: -38.184 rif: -37.296 steric:  -0.888 cluster:       0 noCH_NTF2_bb-1944_000000049
+real	0m47.701s
+user	18m16.456s
+sys	0m12.200s
+generation runtime
+real	2m12.361s
+user	77m22.462s
+sys	0m19.969s
+du -sm rifdock_scaffold_data/
+366	rifdock_scaffold_data/
+
+BEAM3 HSF1.6 tgtgrids
+rif score:    0 rank         0 dist0:    16.3933 packscore: -69.980 score: -39.405 rif: -38.828 steric:  -0.576 cluster:    2220 noCH_NTF2_bb-1944_000000000
+rif score:    1 rank        12 dist0:    16.0265 packscore: -68.619 score: -38.469 rif: -38.642 steric:   0.173 cluster:      85 noCH_NTF2_bb-1944_000000001
+rif score:    2 rank        75 dist0:    15.7441 packscore: -66.553 score: -40.482 rif: -40.017 steric:  -0.465 cluster:     518 noCH_NTF2_bb-1944_000000002
+rif score:    3 rank        93 dist0:    17.5899 packscore: -66.225 score: -38.872 rif: -39.839 steric:   0.967 cluster:     497 noCH_NTF2_bb-1944_000000003
+rif score:    4 rank       275 dist0:    14.5471 packscore: -64.079 score: -35.980 rif: -35.729 steric:  -0.252 cluster:      27 noCH_NTF2_bb-1944_000000004
+rif score:    5 rank       525 dist0:    17.5796 packscore: -62.643 score: -39.852 rif: -40.080 steric:   0.228 cluster:     526 noCH_NTF2_bb-1944_000000005
+rif score:    6 rank      1047 dist0:    20.3489 packscore: -60.399 score: -37.000 rif: -37.029 steric:   0.029 cluster:     136 noCH_NTF2_bb-1944_000000006
+rif score:    7 rank      1512 dist0:    16.7781 packscore: -58.836 score: -36.455 rif: -37.272 steric:   0.817 cluster:      32 noCH_NTF2_bb-1944_000000007
+rif score:    8 rank      1730 dist0:    15.5402 packscore: -58.026 score: -35.994 rif: -35.837 steric:  -0.157 cluster:      31 noCH_NTF2_bb-1944_000000008
+rif score:    9 rank      1765 dist0:    17.7001 packscore: -57.910 score: -39.384 rif: -39.677 steric:   0.293 cluster:      92 noCH_NTF2_bb-1944_000000009
+rif score:   10 rank      1994 dist0:    16.8461 packscore: -57.151 score: -36.689 rif: -35.976 steric:  -0.713 cluster:     120 noCH_NTF2_bb-1944_000000010
+rif score:   11 rank      2173 dist0:    19.6162 packscore: -56.528 score: -38.400 rif: -38.490 steric:   0.089 cluster:      69 noCH_NTF2_bb-1944_000000011
+rif score:   12 rank      2266 dist0:    17.8649 packscore: -56.243 score: -36.687 rif: -36.054 steric:  -0.633 cluster:      51 noCH_NTF2_bb-1944_000000012
+rif score:   13 rank      2519 dist0:    19.7636 packscore: -55.449 score: -36.560 rif: -36.943 steric:   0.382 cluster:      34 noCH_NTF2_bb-1944_000000013
+rif score:   14 rank      2563 dist0:    17.9984 packscore: -55.274 score: -36.850 rif: -36.750 steric:  -0.100 cluster:      29 noCH_NTF2_bb-1944_000000014
+rif score:   15 rank      2570 dist0:    20.5705 packscore: -55.259 score: -36.204 rif: -36.198 steric:  -0.005 cluster:      25 noCH_NTF2_bb-1944_000000015
+rif score:   16 rank      2681 dist0:    17.6404 packscore: -54.894 score: -39.696 rif: -41.188 steric:   1.491 cluster:      24 noCH_NTF2_bb-1944_000000016
+rif score:   17 rank      2711 dist0:    17.9799 packscore: -54.814 score: -36.027 rif: -35.201 steric:  -0.827 cluster:      15 noCH_NTF2_bb-1944_000000017
+rif score:   18 rank      2787 dist0:    18.5939 packscore: -54.583 score: -39.762 rif: -38.813 steric:  -0.949 cluster:     232 noCH_NTF2_bb-1944_000000018
+rif score:   19 rank      2798 dist0:    17.7922 packscore: -54.564 score: -41.575 rif: -40.799 steric:  -0.776 cluster:      45 noCH_NTF2_bb-1944_000000019
+rif score:   20 rank      2872 dist0:    16.2738 packscore: -54.310 score: -36.061 rif: -37.919 steric:   1.858 cluster:       7 noCH_NTF2_bb-1944_000000020
+rif score:   21 rank      3115 dist0:    18.5743 packscore: -53.521 score: -37.597 rif: -37.131 steric:  -0.465 cluster:      29 noCH_NTF2_bb-1944_000000021
+rif score:   22 rank      3394 dist0:    19.0113 packscore: -52.530 score: -36.692 rif: -35.367 steric:  -1.325 cluster:      58 noCH_NTF2_bb-1944_000000022
+rif score:   23 rank      3471 dist0:    19.5285 packscore: -52.281 score: -37.159 rif: -42.843 steric:   5.684 cluster:      32 noCH_NTF2_bb-1944_000000023
+rif score:   24 rank      3589 dist0:    18.8819 packscore: -51.901 score: -37.937 rif: -38.309 steric:   0.371 cluster:       0 noCH_NTF2_bb-1944_000000024
+rif score:   25 rank      3593 dist0:    17.3188 packscore: -51.891 score: -36.420 rif: -35.830 steric:  -0.590 cluster:       6 noCH_NTF2_bb-1944_000000025
+rif score:   26 rank      3709 dist0:    20.4061 packscore: -51.463 score: -36.556 rif: -36.262 steric:  -0.294 cluster:      26 noCH_NTF2_bb-1944_000000026
+rif score:   27 rank      3717 dist0:    15.8552 packscore: -51.431 score: -38.749 rif: -38.415 steric:  -0.334 cluster:      38 noCH_NTF2_bb-1944_000000027
+rif score:   28 rank      3827 dist0:    18.9932 packscore: -51.033 score: -38.152 rif: -37.138 steric:  -1.013 cluster:      12 noCH_NTF2_bb-1944_000000028
+rif score:   29 rank      3902 dist0:    18.8174 packscore: -50.725 score: -36.089 rif: -35.351 steric:  -0.738 cluster:      11 noCH_NTF2_bb-1944_000000029
+rif score:   30 rank      4024 dist0:    16.7047 packscore: -50.325 score: -36.227 rif: -35.899 steric:  -0.328 cluster:       4 noCH_NTF2_bb-1944_000000030
+rif score:   31 rank      4118 dist0:    18.0639 packscore: -50.043 score: -36.672 rif: -36.467 steric:  -0.204 cluster:       4 noCH_NTF2_bb-1944_000000031
+rif score:   32 rank      4124 dist0:    20.7603 packscore: -50.031 score: -36.530 rif: -36.179 steric:  -0.351 cluster:      18 noCH_NTF2_bb-1944_000000032
+rif score:   33 rank      4179 dist0:    20.0958 packscore: -49.858 score: -36.716 rif: -36.520 steric:  -0.196 cluster:       6 noCH_NTF2_bb-1944_000000033
+rif score:   34 rank      4220 dist0:    18.0136 packscore: -49.745 score: -39.276 rif: -38.261 steric:  -1.015 cluster:       9 noCH_NTF2_bb-1944_000000034
+rif score:   35 rank      4296 dist0:    17.3931 packscore: -49.501 score: -37.855 rif: -37.540 steric:  -0.315 cluster:       0 noCH_NTF2_bb-1944_000000035
+rif score:   36 rank      4345 dist0:    16.7610 packscore: -49.282 score: -36.826 rif: -36.134 steric:  -0.691 cluster:      23 noCH_NTF2_bb-1944_000000036
+rif score:   37 rank      4377 dist0:    17.2696 packscore: -49.211 score: -37.013 rif: -39.054 steric:   2.040 cluster:       1 noCH_NTF2_bb-1944_000000037
+rif score:   38 rank      4379 dist0:    16.7353 packscore: -49.208 score: -36.347 rif: -36.917 steric:   0.570 cluster:       3 noCH_NTF2_bb-1944_000000038
+rif score:   39 rank      4391 dist0:    18.0119 packscore: -49.174 score: -37.648 rif: -37.497 steric:  -0.151 cluster:       5 noCH_NTF2_bb-1944_000000039
+rif score:   40 rank      4423 dist0:    19.8659 packscore: -49.052 score: -36.838 rif: -36.363 steric:  -0.475 cluster:       1 noCH_NTF2_bb-1944_000000040
+rif score:   41 rank      4502 dist0:    17.1771 packscore: -48.797 score: -36.171 rif: -35.899 steric:  -0.272 cluster:      12 noCH_NTF2_bb-1944_000000041
+rif score:   42 rank      4572 dist0:    20.0092 packscore: -48.611 score: -40.650 rif: -42.568 steric:   1.919 cluster:      20 noCH_NTF2_bb-1944_000000042
+rif score:   43 rank      4579 dist0:    20.5827 packscore: -48.594 score: -38.204 rif: -37.468 steric:  -0.735 cluster:       6 noCH_NTF2_bb-1944_000000043
+rif score:   44 rank      4620 dist0:    16.3847 packscore: -48.507 score: -37.356 rif: -36.225 steric:  -1.131 cluster:       1 noCH_NTF2_bb-1944_000000044
+rif score:   45 rank      4862 dist0:    17.0745 packscore: -47.870 score: -36.134 rif: -37.169 steric:   1.035 cluster:       9 noCH_NTF2_bb-1944_000000045
+rif score:   46 rank      5123 dist0:    15.8536 packscore: -47.248 score: -38.705 rif: -38.046 steric:  -0.659 cluster:       0 noCH_NTF2_bb-1944_000000046
+rif score:   47 rank      5179 dist0:    18.1970 packscore: -47.110 score: -43.514 rif: -42.232 steric:  -1.282 cluster:       0 noCH_NTF2_bb-1944_000000047
+rif score:   48 rank      5185 dist0:    17.7579 packscore: -47.095 score: -36.455 rif: -37.336 steric:   0.881 cluster:       0 noCH_NTF2_bb-1944_000000048
+rif score:   49 rank      5198 dist0:    19.5049 packscore: -47.068 score: -37.055 rif: -36.416 steric:  -0.639 cluster:       0 noCH_NTF2_bb-1944_000000049
+real	0m49.177s
+user	20m30.109s
+sys	0m11.998s
+
+biotin scaff test: results/btn_test_hsf*
+
+HB80:
+
+orig scaffold: highres dosen't work, without hackpack , helix shift kinda-native #1, inverted helix #4, native-like #9, 20 etc
+
+1brs polar
+1emv mostly polar, 1 nice phe
+1ppf bbone contacts
+
+
+best score of native-like btn with all res: -25.738 some polars missing
+
+
+
+
+
+hackpack 0.25
+
+rif score:         0 ~rms:  3.3029 packscore: -39.528 score: -36.894 rif: -35.717 steric:  -1.177
+rif score:         1 ~rms:  3.6555 packscore: -39.482 score: -38.592 rif: -37.536 steric:  -1.056
+rif score:         2 ~rms:  3.7818 packscore: -39.460 score: -38.969 rif: -37.613 steric:  -1.356
+rif score:         3 ~rms:  3.5246 packscore: -39.405 score: -39.428 rif: -38.253 steric:  -1.175
+rif score:         4 ~rms:  3.9789 packscore: -39.167 score: -38.235 rif: -37.382 steric:  -0.852
+rif score:         5 ~rms:  3.2443 packscore: -38.990 score: -37.715 rif: -36.382 steric:  -1.333
+rif score:         6 ~rms:  3.3371 packscore: -38.971 score: -37.648 rif: -36.305 steric:  -1.343
+rif score:         7 ~rms:  3.5831 packscore: -38.907 score: -38.509 rif: -37.347 steric:  -1.162
+rif score:         8 ~rms:  4.1312 packscore: -38.859 score: -38.109 rif: -37.068 steric:  -1.041
+rif score:         9 ~rms:  4.0275 packscore: -38.812 score: -39.093 rif: -38.075 steric:  -1.018
+rif score:        10 ~rms:  3.1524 packscore: -38.810 score: -37.352 rif: -36.241 steric:  -1.111
+rif score:        11 ~rms:  3.2537 packscore: -38.791 score: -38.458 rif: -37.262 steric:  -1.196
+rif score:        12 ~rms:  3.3406 packscore: -38.781 score: -38.285 rif: -37.108 steric:  -1.177
+rif score:        13 ~rms:  3.9775 packscore: -38.733 score: -38.915 rif: -37.721 steric:  -1.194
+rif score:        14 ~rms:  4.0799 packscore: -38.663 score: -38.334 rif: -37.022 steric:  -1.313
+rif score:        17 ~rms:  3.8792 packscore: -38.521 score: -39.636 rif: -38.452 steric:  -1.184
+rif score:        18 ~rms:  3.3251 packscore: -38.448 score: -39.362 rif: -37.975 steric:  -1.387
+rif score:        19 ~rms:  3.3798 packscore: -38.411 score: -38.890 rif: -37.724 steric:  -1.166
+rif score:        20 ~rms:  3.9730 packscore: -38.395 score: -36.319 rif: -34.828 steric:  -1.491
+rif score:        21 ~rms:  3.1759 packscore: -38.311 score: -37.778 rif: -36.675 steric:  -1.103
+rif score:        26 ~rms:  3.6109 packscore: -38.127 score: -39.841 rif: -38.263 steric:  -1.578
+rif score:        27 ~rms:  3.3354 packscore: -38.090 score: -37.697 rif: -36.367 steric:  -1.330
+rif score:        30 ~rms:  3.6373 packscore: -38.036 score: -36.715 rif: -35.479 steric:  -1.236
+rif score:        32 ~rms:  3.0620 packscore: -37.988 score: -38.571 rif: -37.416 steric:  -1.155
+rif score:        33 ~rms:  4.1727 packscore: -37.984 score: -37.428 rif: -36.310 steric:  -1.118
+rif score:        35 ~rms:  3.5784 packscore: -37.882 score: -37.547 rif: -36.151 steric:  -1.395
+rif score:        36 ~rms:  3.1527 packscore: -37.874 score: -36.177 rif: -35.159 steric:  -1.018
+rif score:        37 ~rms:  3.8124 packscore: -37.860 score: -39.764 rif: -38.606 steric:  -1.158
+rif score:        40 ~rms:  3.3896 packscore: -37.812 score: -37.285 rif: -36.136 steric:  -1.149
+rif score:        50 ~rms:  3.3643 packscore: -37.531 score: -37.559 rif: -36.117 steric:  -1.443
+rif score:        51 ~rms:  3.1121 packscore: -37.521 score: -37.901 rif: -36.290 steric:  -1.611
+rif score:        52 ~rms:  3.9372 packscore: -37.498 score: -36.761 rif: -35.246 steric:  -1.516
+rif score:        53 ~rms:  4.1368 packscore: -37.495 score: -34.607 rif: -33.092 steric:  -1.514
+rif score:        54 ~rms:  3.0550 packscore: -37.394 score: -36.466 rif: -35.547 steric:  -0.919
+rif score:        55 ~rms:  3.4941 packscore: -37.372 score: -38.209 rif: -37.801 steric:  -0.409
+rif score:        57 ~rms:  3.3819 packscore: -37.354 score: -38.159 rif: -36.732 steric:  -1.427
+rif score:        58 ~rms:  4.0882 packscore: -37.309 score: -35.963 rif: -34.828 steric:  -1.135
+rif score:        62 ~rms:  3.2796 packscore: -37.149 score: -36.682 rif: -35.330 steric:  -1.353
+rif score:        67 ~rms:  3.2588 packscore: -37.061 score: -34.935 rif: -34.014 steric:  -0.921
+rif score:        70 ~rms:  4.0049 packscore: -36.993 score: -35.211 rif: -34.135 steric:  -1.076
+rif score:        74 ~rms:  3.9069 packscore: -36.910 score: -38.166 rif: -36.683 steric:  -1.483
+rif score:        80 ~rms:  3.2176 packscore: -36.837 score: -36.343 rif: -35.119 steric:  -1.224
+rif score:        81 ~rms:  3.9206 packscore: -36.836 score: -35.572 rif: -34.241 steric:  -1.331
+rif score:        87 ~rms:  3.4620 packscore: -36.734 score: -38.762 rif: -37.213 steric:  -1.549
+rif score:        90 ~rms:  4.2788 packscore: -36.705 score: -35.819 rif: -34.384 steric:  -1.435
+rif score:        92 ~rms:  3.1119 packscore: -36.696 score: -30.447 rif: -29.324 steric:  -1.123
+rif score:       107 ~rms:  3.3039 packscore: -36.536 score: -32.450 rif: -31.562 steric:  -0.888
+rif score:       108 ~rms:  3.3778 packscore: -36.512 score: -35.356 rif: -36.290 steric:   0.934
+rif score:       109 ~rms:  3.5444 packscore: -36.508 score: -34.307 rif: -33.852 steric:  -0.456
+rif score:       116 ~rms:  3.4054 packscore: -36.458 score: -36.393 rif: -35.042 steric:  -1.351
+rif score:       128 ~rms:  2.7267 packscore: -36.339 score: -35.920 rif: -36.554 steric:   0.634
+rif score:       130 ~rms:  3.4311 packscore: -36.332 score: -33.816 rif: -32.887 steric:  -0.929
+rif score:       133 ~rms:  3.9196 packscore: -36.318 score: -38.909 rif: -37.690 steric:  -1.219
+rif score:       138 ~rms:  3.4929 packscore: -36.304 score: -34.966 rif: -34.298 steric:  -0.669
+rif score:       165 ~rms: 12.6605 packscore: -36.069 score: -34.367 rif: -33.025 steric:  -1.343
+rif score:       171 ~rms:  3.3461 packscore: -36.023 score: -32.885 rif: -31.800 steric:  -1.086
+rif score:       176 ~rms:  3.7755 packscore: -35.994 score: -37.441 rif: -36.481 steric:  -0.959
+rif score:       187 ~rms: 12.4223 packscore: -35.927 score: -34.821 rif: -33.302 steric:  -1.519
+rif score:       212 ~rms:  3.5346 packscore: -35.838 score: -34.836 rif: -33.595 steric:  -1.241
+rif score:       216 ~rms:  4.2719 packscore: -35.821 score: -37.345 rif: -36.171 steric:  -1.173
+rif score:       230 ~rms:  3.7917 packscore: -35.750 score: -36.524 rif: -35.905 steric:  -0.619
+rif score:       234 ~rms: 12.9247 packscore: -35.719 score: -34.106 rif: -32.583 steric:  -1.522
+rif score:       241 ~rms:  3.2632 packscore: -35.666 score: -35.693 rif: -34.385 steric:  -1.309
+rif score:       243 ~rms:  3.5226 packscore: -35.663 score: -38.196 rif: -36.980 steric:  -1.217
+rif score:       260 ~rms:  6.9429 packscore: -35.608 score: -38.245 rif: -36.877 steric:  -1.368
+rif score:       268 ~rms:  3.0902 packscore: -35.586 score: -32.947 rif: -31.962 steric:  -0.984
+rif score:       269 ~rms:  3.4633 packscore: -35.581 score: -35.665 rif: -34.616 steric:  -1.050
+rif score:       271 ~rms:  3.6561 packscore: -35.580 score: -39.550 rif: -38.134 steric:  -1.416
+rif score:       295 ~rms:  3.7016 packscore: -35.478 score: -32.026 rif: -31.078 steric:  -0.948
+rif score:       305 ~rms:  3.2105 packscore: -35.457 score: -33.713 rif: -32.261 steric:  -1.451
+rif score:       333 ~rms:  4.2233 packscore: -35.382 score: -37.175 rif: -36.119 steric:  -1.056
+rif score:       354 ~rms:  3.1713 packscore: -35.278 score: -31.980 rif: -30.925 steric:  -1.055
+rif score:       399 ~rms:  6.1338 packscore: -35.138 score: -34.105 rif: -33.542 steric:  -0.562
+rif score:       404 ~rms:  2.6514 packscore: -35.125 score: -34.431 rif: -37.009 steric:   2.578
+rif score:       418 ~rms:  4.0799 packscore: -35.076 score: -36.490 rif: -35.319 steric:  -1.171
+rif score:       458 ~rms:  6.3466 packscore: -34.970 score: -36.297 rif: -35.268 steric:  -1.029
+rif score:       497 ~rms:  4.2248 packscore: -34.895 score: -37.060 rif: -36.241 steric:  -0.819
+rif score:       503 ~rms:  2.4977 packscore: -34.884 score: -34.624 rif: -35.128 steric:   0.504
+rif score:       511 ~rms: 12.8338 packscore: -34.855 score: -35.912 rif: -34.594 steric:  -1.318
+rif score:       563 ~rms:  2.9903 packscore: -34.750 score: -36.442 rif: -35.256 steric:  -1.186
+rif score:       592 ~rms:  5.5322 packscore: -34.686 score: -36.743 rif: -35.747 steric:  -0.996
+rif score:       643 ~rms:  3.7853 packscore: -34.612 score: -36.827 rif: -35.631 steric:  -1.196
+rif score:       760 ~rms:  7.1905 packscore: -34.390 score: -34.899 rif: -34.002 steric:  -0.897
+rif score:       772 ~rms:  6.7385 packscore: -34.370 score: -34.956 rif: -33.417 steric:  -1.539
+rif score:       890 ~rms:  9.1279 packscore: -34.204 score: -35.507 rif: -34.383 steric:  -1.124
+rif score:       895 ~rms:  3.8401 packscore: -34.197 score: -35.757 rif: -35.884 steric:   0.127
+rif score:       911 ~rms:  7.1611 packscore: -34.166 score: -38.459 rif: -37.504 steric:  -0.955
+rif score:       985 ~rms:  3.4624 packscore: -34.054 score: -35.504 rif: -34.219 steric:  -1.284
+rif score:      1139 ~rms:  4.5240 packscore: -33.850 score: -38.183 rif: -37.364 steric:  -0.820
+rif score:      1141 ~rms:  3.7434 packscore: -33.846 score: -32.395 rif: -31.724 steric:  -0.671
+rif score:      1149 ~rms:  6.7038 packscore: -33.837 score: -36.948 rif: -35.569 steric:  -1.379
+rif score:      1268 ~rms:  3.8015 packscore: -33.721 score: -34.399 rif: -33.234 steric:  -1.165
+rif score:      1277 ~rms:  6.7276 packscore: -33.713 score: -40.305 rif: -38.836 steric:  -1.470
+rif score:      1298 ~rms:  3.5746 packscore: -33.690 score: -33.904 rif: -32.431 steric:  -1.473
+rif score:      1530 ~rms:  8.1230 packscore: -33.477 score: -32.841 rif: -31.860 steric:  -0.981
+rif score:      1627 ~rms:  6.7761 packscore: -33.416 score: -33.760 rif: -32.349 steric:  -1.411
+rif score:      1637 ~rms:  3.8809 packscore: -33.407 score: -34.359 rif: -33.117 steric:  -1.242
+rif score:      1694 ~rms:  2.9468 packscore: -33.364 score: -34.387 rif: -33.247 steric:  -1.140
+rif score:      1725 ~rms:  6.5927 packscore: -33.339 score: -34.574 rif: -32.942 steric:  -1.632
+rif score:      1767 ~rms:  9.7644 packscore: -33.311 score: -36.375 rif: -34.513 steric:  -1.862
+rif score:      8926 ~rms:  0.9585 packscore: -31.168 score: -32.121 rif: -30.857 steric:  -1.264
+rif score:     10838 ~rms:  0.8127 packscore: -30.926 score: -33.961 rif: -32.509 steric:  -1.453
+rif_dock_test_DONE
+
+real	4m37.797s
+user	199m43.350s
+sys	0m26.009s
+
+
+rif score:         0 ~rms:  3.6923 packscore: -39.652 score: -38.744 rif: -37.382 steric:  -1.361
+rif score:         1 ~rms:  3.6393 packscore: -39.615 score: -38.569 rif: -37.193 steric:  -1.375
+rif score:         2 ~rms:  3.3029 packscore: -39.528 score: -36.894 rif: -35.717 steric:  -1.177
+rif score:         3 ~rms:  4.1732 packscore: -39.382 score: -38.306 rif: -37.068 steric:  -1.239
+rif score:         4 ~rms:  3.8649 packscore: -39.229 score: -40.165 rif: -38.990 steric:  -1.174
+rif score:         5 ~rms:  3.9789 packscore: -39.167 score: -38.235 rif: -37.382 steric:  -0.852
+rif score:         6 ~rms:  4.1312 packscore: -39.032 score: -38.109 rif: -37.068 steric:  -1.041
+rif score:         7 ~rms:  3.3371 packscore: -38.971 score: -37.648 rif: -36.305 steric:  -1.343
+rif score:         8 ~rms:  3.1408 packscore: -38.856 score: -37.787 rif: -36.982 steric:  -0.805
+rif score:         9 ~rms:  3.3349 packscore: -38.850 score: -38.832 rif: -37.570 steric:  -1.262
+rif score:        10 ~rms:  3.0797 packscore: -38.790 score: -38.728 rif: -37.619 steric:  -1.109
+rif score:        11 ~rms:  3.6863 packscore: -38.771 score: -36.116 rif: -34.905 steric:  -1.211
+rif score:        12 ~rms:  3.0974 packscore: -38.733 score: -36.938 rif: -35.759 steric:  -1.179
+rif score:        13 ~rms:  3.8382 packscore: -38.675 score: -39.241 rif: -37.998 steric:  -1.243
+rif score:        15 ~rms:  3.7895 packscore: -38.646 score: -34.371 rif: -33.227 steric:  -1.143
+rif score:        17 ~rms:  3.3798 packscore: -38.411 score: -38.890 rif: -37.724 steric:  -1.166
+rif score:        18 ~rms:  3.9730 packscore: -38.395 score: -36.319 rif: -34.828 steric:  -1.491
+rif score:        20 ~rms:  3.1759 packscore: -38.311 score: -37.778 rif: -36.675 steric:  -1.103
+rif score:        22 ~rms:  4.1383 packscore: -38.167 score: -35.790 rif: -34.670 steric:  -1.120
+rif score:        23 ~rms:  3.2140 packscore: -38.082 score: -37.671 rif: -36.395 steric:  -1.277
+rif score:        24 ~rms:  2.5859 packscore: -38.080 score: -37.671 rif: -36.395 steric:  -1.277
+rif score:        28 ~rms:  3.6109 packscore: -38.031 score: -39.841 rif: -38.263 steric:  -1.578
+rif score:        30 ~rms:  4.0821 packscore: -37.976 score: -36.693 rif: -35.831 steric:  -0.863
+rif score:        33 ~rms:  3.3896 packscore: -37.812 score: -37.285 rif: -36.136 steric:  -1.149
+rif score:        40 ~rms:  3.0550 packscore: -37.644 score: -36.466 rif: -35.547 steric:  -0.919
+rif score:        42 ~rms:  3.2546 packscore: -37.637 score: -37.972 rif: -36.691 steric:  -1.282
+rif score:        44 ~rms:  3.5764 packscore: -37.615 score: -39.419 rif: -38.072 steric:  -1.347
+rif score:        46 ~rms:  3.8329 packscore: -37.514 score: -37.375 rif: -36.142 steric:  -1.233
+rif score:        47 ~rms:  4.2584 packscore: -37.507 score: -34.343 rif: -33.044 steric:  -1.299
+rif score:        48 ~rms:  3.9775 packscore: -37.446 score: -38.915 rif: -37.721 steric:  -1.194
+rif score:        49 ~rms:  3.8602 packscore: -37.396 score: -34.706 rif: -33.223 steric:  -1.483
+rif score:        51 ~rms:  3.4941 packscore: -37.371 score: -38.209 rif: -37.801 steric:  -0.409
+rif score:        52 ~rms:  3.8631 packscore: -37.365 score: -35.529 rif: -34.626 steric:  -0.904
+rif score:        56 ~rms:  3.1558 packscore: -37.295 score: -37.560 rif: -36.444 steric:  -1.116
+rif score:        58 ~rms:  3.0620 packscore: -37.271 score: -38.571 rif: -37.416 steric:  -1.155
+rif score:        59 ~rms: 12.3662 packscore: -37.270 score: -35.024 rif: -33.532 steric:  -1.491
+rif score:        65 ~rms:  3.5995 packscore: -37.186 score: -39.377 rif: -38.263 steric:  -1.114
+rif score:        70 ~rms:  3.6483 packscore: -37.089 score: -37.345 rif: -35.949 steric:  -1.396
+rif score:        76 ~rms:  3.5455 packscore: -37.015 score: -36.414 rif: -35.596 steric:  -0.818
+rif score:        81 ~rms:  3.0970 packscore: -36.946 score: -38.264 rif: -37.108 steric:  -1.155
+rif score:        89 ~rms:  3.8163 packscore: -36.831 score: -36.633 rif: -35.025 steric:  -1.608
+rif score:        98 ~rms:  2.8586 packscore: -36.730 score: -38.542 rif: -37.169 steric:  -1.373
+rif score:       107 ~rms:  3.3088 packscore: -36.649 score: -33.946 rif: -32.887 steric:  -1.059
+rif score:       109 ~rms:  4.1321 packscore: -36.606 score: -34.031 rif: -32.659 steric:  -1.371
+rif score:       113 ~rms:  3.3039 packscore: -36.536 score: -32.450 rif: -31.562 steric:  -0.888
+rif score:       114 ~rms:  4.2178 packscore: -36.527 score: -36.917 rif: -36.582 steric:  -0.335
+rif score:       116 ~rms:  3.5444 packscore: -36.508 score: -34.307 rif: -33.852 steric:  -0.456
+rif score:       120 ~rms:  3.5741 packscore: -36.471 score: -36.588 rif: -35.174 steric:  -1.414
+rif score:       131 ~rms:  3.4376 packscore: -36.369 score: -35.775 rif: -34.839 steric:  -0.936
+rif score:       132 ~rms:  3.3987 packscore: -36.363 score: -37.767 rif: -36.521 steric:  -1.246
+rif score:       146 ~rms:  3.3089 packscore: -36.270 score: -35.676 rif: -34.386 steric:  -1.290
+rif score:       147 ~rms:  3.2832 packscore: -36.256 score: -31.073 rif: -29.935 steric:  -1.138
+rif score:       152 ~rms:  4.1134 packscore: -36.188 score: -35.681 rif: -34.625 steric:  -1.056
+rif score:       163 ~rms:  3.7995 packscore: -36.104 score: -38.058 rif: -36.838 steric:  -1.220
+rif score:       167 ~rms:  3.4633 packscore: -36.073 score: -35.665 rif: -34.616 steric:  -1.050
+rif score:       191 ~rms:  2.7267 packscore: -35.883 score: -35.920 rif: -36.554 steric:   0.634
+rif score:       202 ~rms:  4.2719 packscore: -35.821 score: -37.345 rif: -36.171 steric:  -1.173
+rif score:       203 ~rms:  2.5859 packscore: -35.815 score: -37.345 rif: -36.171 steric:  -1.173
+rif score:       214 ~rms:  3.0902 packscore: -35.762 score: -32.947 rif: -31.962 steric:  -0.984
+rif score:       222 ~rms:  3.2945 packscore: -35.716 score: -35.482 rif: -34.308 steric:  -1.174
+rif score:       235 ~rms:  3.1026 packscore: -35.660 score: -34.943 rif: -33.676 steric:  -1.267
+rif score:       236 ~rms:  3.4573 packscore: -35.655 score: -33.076 rif: -31.806 steric:  -1.270
+rif score:       254 ~rms:  3.4544 packscore: -35.597 score: -33.286 rif: -32.570 steric:  -0.716
+rif score:       255 ~rms:  2.5859 packscore: -35.593 score: -33.286 rif: -32.570 steric:  -0.716
+rif score:       261 ~rms:  3.6561 packscore: -35.580 score: -39.550 rif: -38.134 steric:  -1.416
+rif score:       266 ~rms:  3.4033 packscore: -35.562 score: -34.650 rif: -34.298 steric:  -0.352
+rif score:       268 ~rms:  6.9429 packscore: -35.541 score: -38.245 rif: -36.877 steric:  -1.368
+rif score:       304 ~rms:  4.2926 packscore: -35.438 score: -36.146 rif: -35.192 steric:  -0.954
+rif score:       319 ~rms:  4.2407 packscore: -35.393 score: -37.077 rif: -36.164 steric:  -0.913
+rif score:       324 ~rms:  3.4993 packscore: -35.375 score: -34.974 rif: -34.028 steric:  -0.946
+rif score:       345 ~rms:  3.3097 packscore: -35.293 score: -32.520 rif: -31.744 steric:  -0.776
+rif score:       347 ~rms:  2.5077 packscore: -35.292 score: -35.383 rif: -35.460 steric:   0.077
+rif score:       350 ~rms:  2.8567 packscore: -35.290 score: -35.426 rif: -36.169 steric:   0.743
+rif score:       376 ~rms:  6.7297 packscore: -35.206 score: -37.254 rif: -35.781 steric:  -1.473
+rif score:       388 ~rms:  6.0378 packscore: -35.182 score: -35.383 rif: -34.560 steric:  -0.822
+rif score:       411 ~rms: 12.9242 packscore: -35.122 score: -33.890 rif: -32.506 steric:  -1.384
+rif score:       415 ~rms:  3.4040 packscore: -35.101 score: -35.652 rif: -34.385 steric:  -1.267
+rif score:       500 ~rms:  3.8950 packscore: -34.876 score: -36.869 rif: -36.993 steric:   0.124
+rif score:       511 ~rms: 12.8338 packscore: -34.855 score: -35.912 rif: -34.594 steric:  -1.318
+rif score:       514 ~rms:  3.4732 packscore: -34.845 score: -34.017 rif: -33.603 steric:  -0.414
+rif score:       527 ~rms:  3.6658 packscore: -34.812 score: -36.082 rif: -35.554 steric:  -0.528
+rif score:       535 ~rms: 12.6605 packscore: -34.801 score: -34.367 rif: -33.025 steric:  -1.343
+rif score:       618 ~rms:  7.5990 packscore: -34.625 score: -36.844 rif: -35.862 steric:  -0.981
+rif score:       691 ~rms:  4.0177 packscore: -34.482 score: -35.759 rif: -34.677 steric:  -1.082
+rif score:       716 ~rms:  2.4990 packscore: -34.455 score: -34.846 rif: -35.184 steric:   0.338
+rif score:       730 ~rms:  3.9290 packscore: -34.418 score: -34.831 rif: -33.912 steric:  -0.919
+rif score:       793 ~rms:  6.7494 packscore: -34.303 score: -34.030 rif: -32.566 steric:  -1.464
+rif score:       831 ~rms:  7.1682 packscore: -34.247 score: -36.475 rif: -34.876 steric:  -1.598
+rif score:       932 ~rms:  7.2605 packscore: -34.107 score: -38.776 rif: -38.046 steric:  -0.730
+rif score:      1013 ~rms:  6.8214 packscore: -33.988 score: -33.822 rif: -32.819 steric:  -1.003
+rif score:      1047 ~rms:  9.7959 packscore: -33.930 score: -35.351 rif: -33.551 steric:  -1.801
+rif score:      1127 ~rms:  6.9070 packscore: -33.829 score: -33.719 rif: -32.228 steric:  -1.490
+rif score:      1161 ~rms:  3.0234 packscore: -33.788 score: -34.011 rif: -32.767 steric:  -1.244
+rif score:      1188 ~rms:  6.6814 packscore: -33.762 score: -36.713 rif: -35.018 steric:  -1.695
+rif score:      1209 ~rms:  3.5400 packscore: -33.743 score: -37.180 rif: -36.228 steric:  -0.952
+rif score:      1308 ~rms:  9.8878 packscore: -33.645 score: -32.073 rif: -30.305 steric:  -1.767
+rif score:      1311 ~rms:  7.1535 packscore: -33.642 score: -34.871 rif: -33.925 steric:  -0.946
+rif score:      1314 ~rms:  3.8947 packscore: -33.640 score: -29.240 rif: -28.449 steric:  -0.791
+rif score:      1472 ~rms:  9.1279 packscore: -33.489 score: -35.507 rif: -34.383 steric:  -1.124
+rif score:      1532 ~rms:  3.6182 packscore: -33.435 score: -32.178 rif: -31.254 steric:  -0.924
+rif score:      8920 ~rms:  0.9585 packscore: -31.168 score: -32.121 rif: -30.857 steric:  -1.264
+rif score:     10873 ~rms:  0.8127 packscore: -30.927 score: -33.961 rif: -32.509 steric:  -1.453
+rif score:     21715 ~rms:  0.9750 packscore: -30.085 score: -33.325 rif: -32.294 steric:  -1.031
+rif_dock_test_DONE
+
+real	10m2.248s
+user	468m58.398s
+sys	1m53.657s

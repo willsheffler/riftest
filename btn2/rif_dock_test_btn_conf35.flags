@@ -1,0 +1,14 @@
+-rif_dock:outdir_target_tag conf35
+-rif_dock:target_pdb  ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_target.pdb
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.1875 # this dosen't matter if matches below???
+-rif_dock:target_rf_cache       ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/__RF_BTN_1.conf_0035.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_replonly_12.1_13.1_14.1
+-rif_dock:target_bounding_xmaps ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            ./btn_5confs_noKREQ_resl0.6_msf4_hb4_umh1/rif_BTN_1.conf_0035.pdb.rif
+
+
+

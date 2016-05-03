@@ -1,0 +1,57 @@
+-rif_dock::rf_resl 0.5
+-rif_dock::rf_oversample 2
+-rif_dock::pack_iter_mult 2.0
+-rif_dock::beam_size_M 100.0
+-align_output_to_scaffold true
+-add_orbitals
+-hack_pack 1
+-rif_dock:upweight_iface 1.0
+-rif_dock:align_output_to_scaffold 0
+-rif_dock:scaffold_to_ala true
+-rif_dock:redundancy_filter_mag 1.0
+
+
+-add_native_scaffold_rots_when_packing 0
+-bonus_to_native_scaffold_res -0.0
+
+-rif_dock:hbond_weight 1.0
+-rif_dock:upweight_multi_hbond 1.5
+
+
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.1875
+-rif_dock:data_cache_dir  /work/sheffler/data/scheme_data
+#-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_contextStructure.pdb_CEN_trhash34482544_resl0.1875_osamp2_replonlybdry
+-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_contextStructure.pdb_CEN_trhash06026199_resl0.1875_osamp2_replonlybdry
+
+-rif_dock:rotrf_resl   0.3
+-rif_dock:rotrf_spread 0.0
+-rif_dock:rotrf_cache_dir /work/sheffler/data/scheme_data/rot_rf_tables_03_0/
+
+
+-rif_dock:scaffolds     test_input/silva1/motif_2NM1B_tcen.pdb
+#-rif_dock:scaffold_res
+
+-rif_dock:target_pdb    /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_target.pdb
+-rif_dock:target_res    test_input/silva1/contextStructure_res.txt
+
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            /work/sheffler/data/rif/silva1_NEWHB_all_resl0.6_hb60_msf3.rif.gz
+
+
+
+
+# generated files
+# /work/sheffler/data/scheme_data/__2BE_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_GLOBAL.bin.gz
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! must fix issue with non-global 2B table calculation, seems to use scaffold_res when it shouldn't
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# /work/sheffler/data/scheme_data/__RF_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_CEN_trhash90826666_resl0.5_osamp2 ...
+# /work/sheffler/data/scheme_data/__RF_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_CEN_trhash90826666_resl0.5_osamp2_bounding2_0.5 ...
+#
+#
+#

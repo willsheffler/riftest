@@ -1,0 +1,76 @@
+-rif_hier::rif_type RotScoreSat
+
+-rif_accum_scratch_size_M 250000 # 250gb, jojo only!
+
+-rif_hier:data_cache_dir    /work/sheffler/data/scheme_data
+
+-rif_hier:target ./test_input/hbi/HBIh_0001.pdb
+-extra_res_fa    ./test_input/hbi/HBIh.params
+
+
+-dump_ntries 0
+-renumber_pdb
+
+-hash_cart_resl    0.6
+-hash_angle_resl  12.0
+
+
+-rif_hier::rf_oversample 2
+-rif_hier::rosetta_field_resl 0.25
+-rif_hier::search_resolutions 3.0 1.5 0.75
+
+-rif_hier:score_threshold -0.5
+
+-rif_hier:downweight_hydrophobics true
+-rif_hier:hbond_weight 5.0
+-rif_hier:upweight_multi_hbond 0.0
+
+-rif_hier:outdir  rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5
+-rif_hier:outfile rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz
+
+-rif_hier:min_score_frac 3.0
+
+-rif_hier:apores VAL ILE LEU MET PHE # TRP
+
+#-rif_hier:donres BTN LYS ARG SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rif_hier:accres BTN         SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+-rif_hier:donres SER THR TYR GLN ASN HIS
+-rif_hier:accres HBI
+
+
+-hbond_cart_sample_hack_range 0.50
+-hbond_cart_sample_hack_resl  0.25
+
+-rif_hier:tip_tol_deg        30.0
+-rif_hier:rot_samp_resl       6.0
+
+
+-rif_hier:rif_hbond_dump_fraction  0.00001
+-rif_hier:rif_apo_dump_fraction    0.00001
+
+-add_orbitals
+
+-rif_hier:beam_size_M 10000.0
+-rif_hier:hash_preallocate_mult 0.125
+-rif_hier:max_rf_bounding_ratio 4.0
+
+-redundency_hack 0.0
+
+
+
+
+
+
+# /work/sheffler/ssd/rosetta/master_scheme/source/src/devel/scheme/rif/RifGeneratorSimpleHbonds.cc:151 generate_rif
+# ACCEPTOR  N1
+# DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? HBI  N1  orb LP5 orb# = 30
+# ACCEPTOR  O2
+# ACCEPTOR  O2
+# DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? HBI  O2  orb LP10 orb# = 35
+# DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? HBI  O2  orb LP11 orb# = 36
+# ACCEPTOR  O1
+# ACCEPTOR  O1
+# DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? HBI  O1  orb LP20 orb# = 45
+# DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? HBI  O1  orb LP21 orb# = 46
+# /work/sheffler/ssd/rosetta/master_scheme/source/src/devel/scheme/rif/RifGeneratorSimpleHbonds.cc:157 generate_rif

@@ -1,0 +1,81 @@
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#!!!! rif is at: 1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz
+#!!!! make sure you copy 1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_target.pdb and use it in docking!!!
+#!!!!      also your test structure(s) 1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz__ALIGN__/1emvA_scaffold_corelax_0001_tcen_cheat.pdb
+#!!!! grids for docking (-rif_dock:target_rf_cache):
+#!!!!     /work/sheffler/data/scheme_data/__RF_1emvB_target_corelax_0001.pdb_CEN_trhash24536142_resl0.1875_osamp2_replonlybdry
+#!!!! target_res is: test_input/1emv/1emvB_target_corelax_res_cheat.txt
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+-rif_dock::rf_resl 0.5
+-rif_dock::rf_oversample 2
+-rif_dock::pack_iter_mult 4.0
+-rif_dock::hack_pack_frac 0.15
+-rif_dock::beam_size_M 10.0
+-rif_dock:hsearch_scale_factor 1.3
+-align_output_to_scaffold false
+-add_orbitals
+-hack_pack 1
+
+-add_native_scaffold_rots_when_packing 0
+-bonus_to_native_scaffold_res -0.0
+
+-rif_dock:dokfile  1emv_test.dok
+-rif_dock:outdir results/1emv_test
+
+-rif_dock:hbond_weight 2.5
+-rif_dock:upweight_multi_hbond 0.5
+
+-rif_dock:upweight_iface 1.3
+-rif_dock:scaffold_to_ala true
+-rif_dock:redundancy_filter_mag 1.5
+-rif_dock:n_pdb_out 30
+
+
+-rif_dock:force_output_if_close_to_input       1.0
+-rif_dock:force_output_if_close_to_input_num   0
+
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.1875
+#-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_1emvB_target_corelax_0001.pdb_CEN_trhash70104849_resl0.1875_osamp2_replonlybdry
+#-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_1emvB_target_corelax_0001.pdb_CEN_trhash90349195_resl0.1875_osamp2_replonlybdry
+-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_1emvB_target_corelax_0001.pdb_CEN_trhash24536142_resl0.1875_osamp2_replonlybdry
+
+-rif_dock:rotrf_resl   0.3
+-rif_dock:rotrf_spread 0.0
+-rif_dock:rotrf_scale_atr 0.0
+-rif_dock:rotrf_cache_dir /work/sheffler/data/scheme_data/rot_rf_tables_03_0_atr0
+-rif_dock:data_cache_dir /work/sheffler/data/rifdock_scaffold_data
+-rif_dock:cache_scaffold_data false
+
+
+-rif_dock:scaffolds     /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz__ALIGNED__1emvA_scaffold_corelax_0001.pdb
+-rif_dock:scaffold_res  test_input/1emv/1emvA_scaffold_corelax_res_surface.txt
+#-rif_dock:scaffold_res  test_input/1emv/1emvA_scaffold_corelax_res_cheatless.txt
+
+#-rif_dock:scaffolds test_input/rif_test_scaffs/p034.design.pdb
+#-rif_dock:scaffolds   test_input/rif_test_scaffs/1coi_tri.pdb  test_input/rif_test_scaffs/p034.design.pdb  test_input/rif_test_scaffs/top7.pdb test_input/rif_test_scaffs/fere.pdb      test_input/rif_test_scaffs/r23_nmr.pdb
+
+-rif_dock:target_pdb    /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_target.pdb
+-rif_dock:target_res    test_input/1emv/1emvB_target_corelax_res_cheat.txt
+
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif.gz_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            /work/sheffler/data/rif/1emv_c_noapoWKR_resl0.5_hb60_msf3.rif #.gz
+
+
+
+
+# generated files
+# /work/sheffler/data/scheme_data/__2BE_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_GLOBAL.bin.gz
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! must fix issue with non-global 2B table calculation, seems to use scaffold_res when it shouldn't
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# /work/sheffler/data/scheme_data/__RF_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_CEN_trhash90826666_resl0.5_osamp2 ...
+# /work/sheffler/data/scheme_data/__RF_1emvA_scaffold_corelax_0001_tcen_cheat.pdb_CEN_trhash90826666_resl0.5_osamp2_bounding2_0.5 ...
+#
+#
+#75m

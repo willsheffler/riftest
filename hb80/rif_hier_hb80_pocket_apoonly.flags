@@ -1,0 +1,78 @@
+
+-rif_hier:target           test_input/hb80/hb80_0001.pdb
+-rif_hier:target_res       test_input/hb80/hb80_0001_res_pocketonly.txt
+-rif_hier:test_structures  test_input/hb80/hb80_scaff_0001.pdb
+
+-dump_ntries 0
+-renumber_pdb
+
+-hash_cart_resl              0.6
+-hash_angle_resl            12.0
+
+-ignore_unrecognized_res
+
+-rif_hier::rf_oversample 2
+#-rif_hier::rosetta_field_resl 0.125
+#-rif_hier::search_resolutions 4.0 2.0 1.0 0.5
+
+-rif_hier::rosetta_field_resl 0.1875
+-rif_hier::search_resolutions 3.0 1.5 0.75
+
+#-rif_hier::rosetta_field_resl 0.2
+#-rif_hier::search_resolutions 2.4 1.2 0.6
+
+#-rif_hier::rosetta_field_resl 0.25
+#-rif_hier::search_resolutions 4.0 2.0 1.0
+
+-rif_hier:score_threshold 99999
+
+-rif_hier:downweight_hydrophobics 0
+
+
+-rif_hier:data_cache_dir    /work/sheffler/data/scheme_data
+-rif_hier:outfile           hb80_resl0.6_msf3_hb0.rif.gz
+-rif_hier:outdir            ./rif_hb80_resl0.6_msf3_hb0
+
+-rif_hier:min_score_frac 3.0
+
+-rif_hier:apores VAL ILE LEU MET PHE # TRP
+
+#-rif_hier:donres LYS ARG SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rif_hier:accres         SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+#-rif_hier:donres SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rif_hier:accres SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+#-rif_hier:donres BTN  SER THR TYR     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rif_hier:accres BTN  SER THR TYR ASP ASN HIS HIS_D
+
+
+#-rif_hier:apores VAL ILE LEU MET PHE
+#-rif_hier:donres TYR ASN LYS ARG
+#-rif_hier:accres GLU ASP THR SER
+
+
+-rif_hier:hbond_weight 0.0
+-rif_hier:upweight_multi_hbond 0.0 # could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
+
+
+-hbond_cart_sample_hack_range 0.50
+-hbond_cart_sample_hack_resl  0.25
+
+-rif_hier:tip_tol_deg        60.0
+-rif_hier:rot_samp_resl       6.0
+
+
+-rif_hier:rif_hbond_dump_fraction  0.00
+-rif_hier:rif_apo_dump_fraction    0.00
+
+-add_orbitals
+
+-rif_hier:beam_size_M 1000.0
+-rif_hier:hash_preallocate_mult 0.125
+-rif_hier:max_rf_bounding_ratio 4.0
+
+-redundency_hack 0.0
+
+
+

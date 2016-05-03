@@ -1,0 +1,78 @@
+-rif_dock::hsearch_scale_factor 1.5
+-rif_dock::beam_size_M 10.0
+-rif_dock::rf_resl 0.5
+-rif_dock::rf_oversample 2
+-rif_dock::pack_iter_mult 4.0
+-rif_dock::hack_pack_frac 0.25
+-align_output_to_scaffold false
+-add_orbitals
+-hack_pack 1
+
+-rif_dock:hbond_weight 1.0
+-rif_dock:upweight_multi_hbond 1.0 # could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
+
+-rif_dock:upweight_iface 1.1
+-rif_dock:scaffold_to_ala true
+-rif_dock:redundancy_filter_mag 1.0
+
+-add_native_scaffold_rots_when_packing 0
+-bonus_to_native_scaffold_res -0.0
+
+-rif_dock::dont_use_scaffold_loops false
+
+-rif_dock:force_output_if_close_to_input       1.0
+-rif_dock:force_output_if_close_to_input_num   0
+
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.1875
+-rif_dock:data_cache_dir /work/sheffler/data/scheme_data
+-rif_dock:cache_scaffold_data false
+
+#-rif_dock:target_rf_cache /work/sheffler/data/scheme_data/__RF_hb80_0001.pdb_CEN_trhash39665822_resl0.1875_osamp2_replonlybdry
+#-rif_dock:target_rf_cache /work/sheffler/ssd/pub/rif_test/rif_test_data_hb80/__RF_hb80_0001.pdb_CEN_trhash39665822_resl0.1875_osamp2_replonlybdry
+-rif_dock:target_rf_cache ./rif_hb80_resl0.6_msf3_hb0/__RF_hb80_0001.pdb_CEN_trhash14064545_resl0.1875_osamp2_replonlybdry
+
+-rif_dock:rotrf_resl   0.3
+-rif_dock:rotrf_spread 0.0
+-rif_dock:rotrf_scale_atr 0.0
+-rif_dock:rotrf_cache_dir /work/sheffler/data/scheme_data/rot_rf_tables_03_0_atr0/
+
+-rif_dock:n_pdb_out 20
+-rif_dock:dokfile hb80_top7_atr0.dok
+-rif_dock:outdir results/hb80_160229_pocked_apoonly
+-rif_dock:output_tag 2batr0
+
+#-rif_dock:scaffolds test_input/hb80/polyA_helix.pdb
+#-rif_dock:scaffolds test_input/hb80/hb80_scaff_helix.pdb
+#-rif_dock:scaffolds     test_input/hb80/2cjj_aln_0001.pdb
+-rif_dock:scaffolds     ./rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif.gz__ALIGNED__hb80_scaff_0001.pdb
+#-rif_dock:scaffold_res  test_input/hb80/hb80_scaff_0001_rescheat.txt
+#-rif_dock:scaffold_res  test_input/hb80/hb80_scaff_0001_ressurf.txt
+
+#-rif_dock:scaffolds test_input/rif_test_scaffs/p034.design.pdb
+#-rif_dock:scaffolds test_input/rif_test_scaffs/r23_nmr.pdb
+#-rif_dock:scaffolds test_input/rif_test_scaffs/top7.pdb
+#-rif_dock:scaffolds test_input/hb80/polyA_helix.pdb
+#-rif_dock:scaffolds test_input/rif_test_scaffs/1coi_tri.pdb
+#-rif_dock:scaffolds test_input/rif_test_scaffs/fere.pdb
+
+-rif_dock:target_pdb    rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif.gz_target.pdb
+-rif_dock:target_res    test_input/hb80/hb80_0001_res_pocketonly.txt
+
+-rif_dock:target_bounding_xmaps rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif
+
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!! rif is at: ./rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif.gz
+# !!!! make sure you copy ./rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif.gz_target.pdb and use it in docking!!!
+# !!!!      also your test structure(s) ./rif_hb80_resl0.6_msf3_hb0/hb80_resl0.6_msf3_hb0.rif.gz__ALIGNED__hb80_scaff_0001.pdb
+# !!!! grids for docking (-rif_hier:target_rf_cache):
+# !!!!     ./rif_hb80_resl0.6_msf3_hb0/__RF_hb80_0001.pdb_CEN_trhash14064545_resl0.1875_osamp2_replonlybdry
+# !!!! you will also need your input res list for docking: test_input/hb80/hb80_0001_res_pocketonly.txt
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

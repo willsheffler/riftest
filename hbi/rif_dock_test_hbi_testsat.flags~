@@ -1,0 +1,76 @@
+-require_satisfaction 5
+-beam_size_M 100
+-rif_dock::pack_iter_mult 4.0
+-rif_dock:hack_pack_frac 0.1
+-hsearch_scale_factor 1.0
+-hack_pack 1
+
+-mute core.scoring.ScoreFunctionFactory
+
+
+-rif_dock::rf_resl 0.5
+-rif_dock::rf_oversample 2
+-rif_dock:rotrf_resl   0.3
+-rif_dock:rotrf_spread 0.0
+
+-rif_dock:rotrf_scale_atr 1.0
+-rif_dock:rotrf_cache_dir /work/sheffler/data/scheme_data/rot_rf_tables_03_0/
+-rif_dock:data_cache_dir  ./rifdock_scaffold_data_atr1
+
+-rif_dock:use_scaffold_bounding_grids 0
+-rif_dock:cache_scaffold_data true
+
+-rif_dock:upweight_iface 1.3
+-rif_dock:hbond_weight 3.0
+-rif_dock:upweight_multi_hbond 0.0 # value of 1.0 could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
+
+-rif_dock:dokfile all.dok
+-rif_dock:rosetta_min_and_score_below_thresh -15.0
+-rif_dock:outdir results/hbi_testsat_min
+-rif_dock:extra_pdb_info true
+-rif_dock:align_output_to_scaffold true
+
+-rif_dock:global_score_cut -5.0
+-rif_dock:n_pdb_out 50
+-rif_dock:redundancy_filter_mag 1.5 # this is NOT an rmsd....
+
+
+-rif_dock:scaffold_to_ala true
+-rif_dock:scaffold_to_ala_selonly false
+
+-add_native_scaffold_rots_when_packing 0 # 1
+-bonus_to_native_scaffold_res          0 # -0.5
+
+-add_orbitals
+
+-extra_res_fa         test_input/hbi/HBIh.params
+
+
+#-rif_dock:target_tag conf01
+
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.25 # will gen new files if not match below!!!
+-rif_dock:target_rf_cache       ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.25_osamp2_replonlybdry
+-rif_dock:target_pdb            ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_target.pdb
+-rif_dock:target_bounding_xmaps ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif.gz_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            ./rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf3_hb30_6_hb5umh0_sat5.rif
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!! rif is at: rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5.rif.gz
+# !!!! make sure you copy rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5.rif.gz_target.pdb and use it in docking!!!
+# !!!! grids for docking (-rif_hier:target_rf_cache):
+# !!!!     rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.25_osamp2_replonlybdry
+# !!!! you will also need your input res list for docking:
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!! rif is at: rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5.rif.gz
+# !!!! make sure you copy rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5.rif.gz_target.pdb and use it in docking!!!
+# !!!! grids for docking (-rif_hier:target_rf_cache):
+# !!!!     rif_hbi_resl0.6_msf1_hb30_6_hb5umh0_sat5/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.25_osamp2_replonlybdry
+# !!!! you will also need your input res list for docking:
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

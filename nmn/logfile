@@ -1,0 +1,348 @@
+core.init: Rosetta version 466215b0fcb11763bd2c143462f1694be43f3da3 2016-01-20 15:48:43 -0800 from git@github.com:rosettacommons/main.git
+core.init: command: /work/sheffler/rosetta/rif_dock/source/cmake/build_omp/rif_hier @rif_hier_template.flags
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=-215162306 seed_offset=0 real_seed=-215162306
+core.init.random: RandomGenerator:init: Normal mode, seed=-215162306 RG_type=mt19937
+core.init: Resolved executable path: /gpfs/DS3524-1/WORK/sheffler/rosetta/rif_dock/source/cmake/build_omp/rif_hier
+core.init: Looking for database based on location of executable: /gpfs/DS3524-1/WORK/sheffler/rosetta/rif_dock/database/
+size of hashed value: 32
+
+=================================================== preparing target ===================================================
+
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 786 residue types
+core.pack.task: Packer task: initialize from command line() 
+centering target from       101.1507272727273       29.51200000000000       81.57172727272730 to ( 0, 0, 0 )
+core.pack.task: Packer task: initialize from command line() 
+core.pack.dunbrack: Dunbrack 2010 library took 0.28 seconds to load from binary
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+n protonchi_parent_ 190
+======================================================================================
+RotamerIndex:
+    ALA 318-318 0 0
+    CYS 0-8 2 1
+    ASP 9-16 2 0
+    GLU 17-31 3 0
+    PHE 32-36 2 0
+    GLY 317-317 0 0
+    HIS 37-44 2 0
+    ILE 45-51 2 0
+    LYS 52-78 4 0
+    LEU 79-83 2 0
+    MET 84-96 3 0
+    ASN 97-105 2 0
+    PRO 106-107 3 0
+    GLN 108-122 3 0
+    ARG 123-156 4 0
+    SER 157-210 2 1
+    THR 211-264 2 1
+    VAL 265-267 1 0
+    TRP 268-274 2 0
+    TYR 275-316 3 1
+
+======================================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WARNING: heavy atom type > 21: 12345 NAD  P2  will treat as carbon!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WARNING: heavy atom type > 21: 12345 NAD  P2  will treat as carbon!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+rosetta_field lb: -3.16573 -3.282 -2.11773  ub: 3.28827 3.696 1.91227  size(A): 6.454 6.978 4.03 
+thread  16 init  rosetta_field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype1.rosetta_field.gz
+thread  14 init  rosetta_field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype6.rosetta_field.gz
+thread  28 init  rosetta_field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype7.rosetta_field.gz
+thread  26 init  rosetta_field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype3.rosetta_field.gz
+thread  27 init  rosetta_field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype8.rosetta_field.gz
+thread   6 init  rosetta_field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype2.rosetta_field.gz
+thread  29 init  rosetta_field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype5.rosetta_field.gz
+thread  13 init  rosetta_field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype4.rosetta_field.gz
+thread  20 init  rosetta_field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype10.rosetta_field.gz
+thread  17 init  rosetta_field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype17.rosetta_field.gz
+thread   2 init  rosetta_field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype13.rosetta_field.gz
+thread  24 init  rosetta_field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype21.rosetta_field.gz
+thread   5 init  rosetta_field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype16.rosetta_field.gz
+thread  19 init  rosetta_field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype19.rosetta_field.gz
+thread  18 init  rosetta_field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype18.rosetta_field.gz
+thread  22 init  rosetta_field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype9.rosetta_field.gz
+thread   9 init  rosetta_field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype15.rosetta_field.gz
+thread  10 init  rosetta_field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype11.rosetta_field.gz
+thread  30 init  rosetta_field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype14.rosetta_field.gz
+thread  11 init  rosetta_field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype12.rosetta_field.gz
+thread  31 init  rosetta_field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry__atype20.rosetta_field.gz
+thread   1 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype6.rf.gz
+thread   2 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype16.rf.gz
+thread   9 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype13.rf.gz
+thread  24 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype12.rf.gz
+thread  29 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype17.rf.gz
+thread   4 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype7.rf.gz
+thread  20 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype4.rf.gz
+thread  22 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype8.rf.gz
+thread  28 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype2.rf.gz
+thread  16 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype10.rf.gz
+thread  26 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype1.rf.gz
+thread  14 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype18.rf.gz
+thread  12 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype3.rf.gz
+thread   3 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype2.rf.gz
+thread  13 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype3.rf.gz
+thread  19 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype1.rf.gz
+thread  30 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype9.rf.gz
+thread   7 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype8.rf.gz
+thread  23 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype5.rf.gz
+thread   5 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype7.rf.gz
+thread  17 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype11.rf.gz
+thread  31 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype15.rf.gz
+thread  21 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype21.rf.gz
+thread  11 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype5.rf.gz
+thread  25 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype10.rf.gz
+thread  15 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype9.rf.gz
+thread   6 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype6.rf.gz
+thread  32 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype20.rf.gz
+thread  27 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype14.rf.gz
+thread  10 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype4.rf.gz
+thread  18 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.75_0.1875_atype19.rf.gz
+thread   8 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype11.rf.gz
+thread   7 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype12.rf.gz
+thread   4 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype13.rf.gz
+thread  23 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype14.rf.gz
+thread   2 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype15.rf.gz
+thread  22 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype16.rf.gz
+thread  20 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype17.rf.gz
+thread   1 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype18.rf.gz
+thread  26 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype19.rf.gz
+thread  28 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype20.rf.gz
+thread  12 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1.5_0.375_atype21.rf.gz
+thread  19 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype1.rf.gz
+thread  13 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype2.rf.gz
+thread  30 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype3.rf.gz
+thread   5 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype4.rf.gz
+thread  11 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype5.rf.gz
+thread  24 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype6.rf.gz
+thread   6 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype7.rf.gz
+thread  25 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype8.rf.gz
+thread  29 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype9.rf.gz
+thread  10 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype10.rf.gz
+thread  21 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype11.rf.gz
+thread  18 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype12.rf.gz
+thread  17 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype13.rf.gz
+thread  32 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype14.rf.gz
+thread  14 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype15.rf.gz
+thread   9 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype16.rf.gz
+thread  16 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype17.rf.gz
+thread  27 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype18.rf.gz
+thread  15 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype19.rf.gz
+thread   3 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype20.rf.gz
+thread   8 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding3_0.75_atype21.rf.gz
+done with rif_hier grids, not make target ones for docking
+thread   1 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype7.rf.gz
+thread   8 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype4.rf.gz
+thread  10 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype8.rf.gz
+thread  17 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype9.rf.gz
+thread  12 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype10.rf.gz
+thread   4 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype3.rf.gz
+thread  14 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype16.rf.gz
+thread   9 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype9.rf.gz
+thread  27 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype10.rf.gz
+thread  16 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype17.rf.gz
+thread   7 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype20.rf.gz
+thread  29 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype1.rf.gz
+thread  24 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype7.rf.gz
+thread  31 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype11.rf.gz
+thread  26 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype8.rf.gz
+thread  30 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype5.rf.gz
+thread  21 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype14.rf.gz
+thread  13 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype21.rf.gz
+thread  32 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype6.rf.gz
+thread   2 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype6.rf.gz
+thread  20 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype4.rf.gz
+thread  22 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype2.rf.gz
+thread  28 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype5.rf.gz
+thread  11 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype3.rf.gz
+thread  25 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype1.rf.gz
+thread  23 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype19.rf.gz
+thread  19 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype15.rf.gz
+thread   5 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype11.rf.gz
+thread  18 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype2.rf.gz
+thread   3 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype18.rf.gz
+thread  15 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype12.rf.gz
+thread   6 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding0.5_0.1875_atype13.rf.gz
+thread   7 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype12.rf.gz
+thread   3 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype13.rf.gz
+thread  21 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype14.rf.gz
+thread  11 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype15.rf.gz
+thread  23 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype16.rf.gz
+thread  15 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype17.rf.gz
+thread   5 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype18.rf.gz
+thread   6 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype19.rf.gz
+thread  20 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype20.rf.gz
+thread  19 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding1_0.25_atype21.rf.gz
+thread   2 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype1.rf.gz
+thread  13 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype2.rf.gz
+thread  22 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype3.rf.gz
+thread  16 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype4.rf.gz
+thread  27 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype5.rf.gz
+thread  14 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype6.rf.gz
+thread   9 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype7.rf.gz
+thread  28 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype8.rf.gz
+thread  26 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype9.rf.gz
+thread   1 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype10.rf.gz
+thread  25 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype11.rf.gz
+thread   4 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype12.rf.gz
+thread  10 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype13.rf.gz
+thread  18 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype14.rf.gz
+thread  17 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype15.rf.gz
+thread   8 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype16.rf.gz
+thread  29 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype17.rf.gz
+thread  24 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype18.rf.gz
+thread   6 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype19.rf.gz
+thread  12 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype20.rf.gz
+thread  31 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding2_0.5_atype21.rf.gz
+thread  30 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype1.rf.gz
+thread  32 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype2.rf.gz
+thread   3 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype3.rf.gz
+thread  22 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype4.rf.gz
+thread  16 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype5.rf.gz
+thread   9 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype6.rf.gz
+thread  28 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype7.rf.gz
+thread  27 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype8.rf.gz
+thread  26 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype9.rf.gz
+thread   2 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype10.rf.gz
+thread  15 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype11.rf.gz
+thread  25 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype12.rf.gz
+thread  13 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype13.rf.gz
+thread  14 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype14.rf.gz
+thread  20 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype15.rf.gz
+thread   5 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype16.rf.gz
+thread  11 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype17.rf.gz
+thread   7 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype18.rf.gz
+thread   1 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype19.rf.gz
+thread  19 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype20.rf.gz
+thread  21 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding4_1_atype21.rf.gz
+thread  23 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype1.rf.gz
+thread  29 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype2.rf.gz
+thread  17 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype3.rf.gz
+thread  10 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype4.rf.gz
+thread  18 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype5.rf.gz
+thread   8 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype6.rf.gz
+thread   6 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype7.rf.gz
+thread   4 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype8.rf.gz
+thread  24 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype9.rf.gz
+thread  30 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype10.rf.gz
+thread  31 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype11.rf.gz
+thread   3 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype12.rf.gz
+thread  32 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype13.rf.gz
+thread  22 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype14.rf.gz
+thread  28 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype15.rf.gz
+thread  12 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype16.rf.gz
+thread   9 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype17.rf.gz
+thread  16 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype18.rf.gz
+thread  26 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype19.rf.gz
+thread  13 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype20.rf.gz
+thread  15 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding8_2_atype21.rf.gz
+thread  27 init bounding field  1 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype1.rf.gz
+thread  25 init bounding field  2 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype2.rf.gz
+thread   2 init bounding field  3 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype3.rf.gz
+thread  14 init bounding field  4 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype4.rf.gz
+thread  20 init bounding field  5 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype5.rf.gz
+thread   7 init bounding field  6 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype6.rf.gz
+thread  11 init bounding field  7 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype7.rf.gz
+thread   5 init bounding field  8 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype8.rf.gz
+thread  19 init bounding field  9 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype9.rf.gz
+thread   1 init bounding field 10 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype10.rf.gz
+thread  23 init bounding field 11 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype11.rf.gz
+thread  21 init bounding field 12 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype12.rf.gz
+thread  29 init bounding field 13 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype13.rf.gz
+thread  13 init bounding field 14 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype14.rf.gz
+thread  17 init bounding field 15 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype15.rf.gz
+thread  10 init bounding field 16 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype16.rf.gz
+thread  18 init bounding field 17 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype17.rf.gz
+thread   8 init bounding field 18 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype18.rf.gz
+thread   6 init bounding field 19 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype19.rf.gz
+thread   4 init bounding field 20 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype20.rf.gz
+thread  24 init bounding field 21 CACHE TO ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry_bounding16_4_atype21.rf.gz
+RifGeneratorSimpleHbonds, cache data path: /work/sheffler/data/scheme_data
+RifGeneratorSimpleHbonds, cache data path: /work/geradda/test/rif_test/cache
+========================== DO HBOND ==================================
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O13 orb LP1 orb# = 25
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O13 orb LP2 orb# = 26
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O12 orb LP4 orb# = 27
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O12 orb LP5 orb# = 28
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O8  orb LP7 orb# = 29
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O8  orb LP8 orb# = 30
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O7  orb LP9 orb# = 31
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O7  orb LP10 orb# = 32
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O9  orb LP11 orb# = 33
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O9  orb LP12 orb# = 34
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O11 orb LP13 orb# = 35
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O11 orb LP14 orb# = 36
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O14 orb LP20 orb# = 41
+DUPLICATE ORBITAL! WHY DOES ROSETTA DO THIS??? NAD  O14 orb LP21 orb# = 42
+target_donors.size() 4 target_acceptors.size() 14
+preloading / generating hbond_geometry files
+RIFAccumulator building rif....
+  1 of 32 progress: 
+  2 of 32 progress: 
+  3 of 32 progress: 
+  4 of 32 progress: 
+  5 of 32 progress: 
+  6 of 32 progress: 
+  7 of 32 progress: 
+  8 of 32 progress: 
+  9 of 32 progress: 
+ 10 of 32 progress: 
+ 11 of 32 progress: 
+ 12 of 32 progress: 
+ 13 of 32 progress: 
+ 14 of 32 progress: 
+ 15 of 32 progress: 
+ 16 of 32 progress: 
+ 17 of 32 progress: 
+ 18 of 32 progress: 
+ 19 of 32 progress: 
+ 20 of 32 progress: 
+ 21 of 32 progress: 
+ 22 of 32 progress: 
+ 23 of 32 progress: 
+ 24 of 32 progress: 
+ 25 of 32 progress: 
+ 26 of 32 progress: 
+ 27 of 32 progress: 
+ 28 of 32 progress: 
+ 29 of 32 progress: 
+ 30 of 32 progress: 
+ 31 of 32 progress: 
+ 32 of 32 progress: 
+RIF:  non0 in RIF:   0.000  N_motifs_found:   0.000  coverage: -nan, mem_use: 128.000 
+RIF size: 128.000  load: 0, sizeof(value_type) 32
+sorting rotamers in each hash entry
+RIF  non0 in RIF:   0.000  N_motifs_found:   0.000  coverage: -nan
+======================= frac collisions in map =======================
+======================= cart: 0.6, ori: 12, minresl: 0.75 =======================
+======================================================================
+   Nrots   1    -nan    -nan 0
+   Nrots   2    -nan    -nan 0
+   Nrots   3    -nan    -nan 0
+   Nrots   4    -nan    -nan 0
+   Nrots   5    -nan    -nan 0
+   Nrots   6    -nan    -nan 0
+   Nrots   7    -nan    -nan 0
+   Nrots   8    -nan    -nan 0
+   Nrots   9    -nan    -nan 0
+   Nrots  10    -nan    -nan 0
+   Nrots  11    -nan    -nan 0
+   Nrots  12    -nan    -nan 0
+E(collisions) = -nan
+======================================================================
+XformHash_bt24_BCC6
+before resize, RIF size: 128.000  load: 0, sizeof(value_type) 32
+NOT RESIZING RIF
+dumping rif to: ./data/NMN.rif.gz
+done dumping
+NOT DELETING VoxelArrayPtr's, should use smart ptrs!
+rif_hier_DONE
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! rif is at: ./data/NMN.rif.gz
+!!!! make sure you copy ./data/NMN.rif.gz_target.pdb and use it in docking!!!
+!!!! grids for docking (-rif_hier:target_rf_cache): 
+!!!!     ./data/__RF_NMN.pdb_CEN_trhash54435770_resl0.1875_osamp2_replonlybdry
+!!!! you will also need your input res list for docking: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -1,0 +1,67 @@
+-rif_hier:data_cache_dir    /work/sheffler/data/scheme_data
+
+-rif_hier:target     test_input/btn/btn_3ry2.pdb
+-extra_res_fa        test_input/btn/BTN.params
+-rif_hier:repulsive_only_atoms 13 1 14 1
+
+-test_structures     test_input/btn/3ry2_btn_apo.pdb
+
+-dump_ntries 0
+-renumber_pdb
+
+-hash_cart_resl              0.6
+-hash_angle_resl            12.0
+
+
+-rif_hier::rf_oversample 2
+-rif_hier::rosetta_field_resl 0.1875
+-rif_hier::search_resolutions 3.0 1.5 0.75
+
+-rif_hier:score_threshold 99999
+
+-rif_hier:downweight_hydrophobics true
+-rif_hier:hbond_weight 1.5
+-rif_hier:upweight_multi_hbond 1.0
+
+-rif_hier:outdir  btn_all_noKREQ_resl0.6_msf4_umh1
+-rif_hier:outfile btn_all_noKREQ_resl0.6_msf4_umh1.rif.gz
+
+-rif_hier:min_score_frac 4.0
+
+-rif_hier:apores VAL ILE LEU MET PHE # TRP
+
+#-rif_hier:donres BTN LYS ARG SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rif_hier:accres BTN         SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+-rif_hier:donres BTN  SER THR TYR     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+-rif_hier:accres BTN  SER THR TYR ASP ASN HIS HIS_D
+
+
+#-rif_hier:apores LEU80 TRP274 TRP272
+#-rif_hier:donres BTN TYR ASN SER THR
+#-rif_hier:accres BTN ASP SER THR
+
+
+
+-hbond_cart_sample_hack_range 0.50
+-hbond_cart_sample_hack_resl  0.25
+
+-rif_hier:tip_tol_deg        30.0 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-rif_hier:rot_samp_resl       3.0 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+-rif_hier:rif_hbond_dump_fraction  0.00
+-rif_hier:rif_apo_dump_fraction    0.00
+
+-add_orbitals
+
+-rif_hier:beam_size_M 1000.0
+-rif_hier:hash_preallocate_mult 0.125
+-rif_hier:max_rf_bounding_ratio 4.0
+
+-redundency_hack 0.0
+
+
+
+
+

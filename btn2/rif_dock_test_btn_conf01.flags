@@ -1,0 +1,21 @@
+-rif_dock:outdir_target_tag conf01
+-rif_dock:target_rf_oversample 2
+-rif_dock:target_rf_resl 0.25 # this dosen't matter if matches below???
+-rif_dock:target_pdb            ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_target.pdb
+-rif_dock:target_rf_cache       ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/__RF_BTN_1.conf_0001.pdb_CEN_trhash54435770_resl0.25_osamp2_replonlybdry_repl_14.1
+-rif_dock:target_bounding_xmaps ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_BOUNDING_HACK_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_BOUNDING_HACK_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_BOUNDING_HACK_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_BOUNDING_HACK_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_BOUNDING_HACK_RIF_01.xmap.gz
+-rif_dock:target_rif            ./rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif
+
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!! rif is at: rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif
+# !!!! make sure you copy rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/rif_BTN_1.conf_0001.pdb.rif_target.pdb and use it in docking!!!
+# !!!! grids for docking (-rif_hier:target_rf_cache):
+# !!!!     rif_btn_5confs_noKRE_resl0.6_msf3_hb2_umh1_rpls14/__RF_BTN_1.conf_0001.pdb_CEN_trhash54435770_resl0.25_osamp2_replonlybdry_repl_14.1
+# !!!! you will also need your input res list for docking:
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

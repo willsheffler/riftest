@@ -14,13 +14,13 @@
 #-scheme:base_xmap_files test_input/btn_test.rif.gz
 
 -scheme:make_hacky_grids true
-#                          
--scheme:hash_ang_resls    60.0  45.0  33.0  20.0  15.0         
--scheme:hash_cart_resls   16.0   8.0   4.0   2.0   1.0         
--scheme:hash_cart_bounds   512   512   512   512   512         
+#
+-scheme:hash_cart_resls   16.0   8.0   4.0   2.0   1.0
+-scheme:hash_cart_bounds   512   512   512   512   512
+-scheme:lever_bounds      16.0   8.0   4.0   2.0   1.0
 
--scheme:lever_bounds      16.0   8.0   4.0   2.0   1.0         
--scheme:lever_radii       15.8  13.5  10.4   7.2   4.4         
-
-
+#-scheme:lever_radii       15.8  13.5  10.4   7.2   4.4
+#-scheme:hash_ang_resls    60.0  45.0  33.0  20.0  15.0 # no worky worky
+-scheme:hash_ang_resls     38.8  24.4  17.2  13.6  11.8 # yes worky worky
+-scheme:lever_radii        23.6 18.785501 13.324600  8.425850  4.855575
 -scheme:verbose true

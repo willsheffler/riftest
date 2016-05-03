@@ -1,0 +1,86 @@
+
+####################################################################################################
+# target info, you MUST select a reasonably sized region of the target with -rif_hier:target_res
+# unless your target is small, like a ligand or peptide (or else you may crash the machine)
+# numbering must be from 1 (general rosetta style)
+####################################################################################################
+
+-rif_hier:target           test_input/nmn/NMN.pdb
+-extra_res_fa              test_input/nmn/NMN.params
+
+# data files will be generated in these locations:
+-rif_hier:outdir  ./rif_nmn
+-rif_hier:outfile NMN_r0.6_tt30_msf3.rif.gz
+
+# some cached data files are needed from here (else it'll take FOREVER regenerating them)
+-rif_hier:data_cache_dir    /work/sheffler/data/scheme_data ./rif_nmn
+
+#############################################################
+# the following residues will be used in the RIF:
+#############################################################
+
+#  you may remove any or all
+-rif_hier:apores PHE VAL ILE LEU MET # TRP
+-rif_hier:donres NAD LYS ASN GLN SER THR #TYR ARG HIS HIS_D TRP
+-rif_hier:accres NAD GLU GLN ASP ASN SER THR # TYR  HIS HIS_D
+
+# hacky parameter regarding how deep into the space of hydrophobic interactions to search 3 or 4 should be ok
+-rif_hier:min_score_frac 3.0
+
+
+
+# this flag will downweight larger/flopier hydrophobic residues
+-rif_hier:downweight_hydrophobics 0
+
+
+
+# max score for an ideal hbond
+-rif_hier:hbond_weight 1.5
+# bonus for multi-dentate hbonds, 0 means no bouns, 1.0 could up to double hb scores
+-rif_hier:upweight_multi_hbond 1.0
+
+
+# sampling bounds and sampling resolutions for hbonding inverse-rotamer generation
+-rif_hier:tip_tol_deg        30.0
+-rif_hier:rot_samp_resl       6.0
+-rif_hier:hbond_cart_sample_hack_range 0.25
+-rif_hier:hbond_cart_sample_hack_resl  0.25
+
+# if you want to see a sample of what's in the RIF, set these to non-0 values
+# this will be the fraction of total... billions can be generated, so make these
+# small... like 0.00001 or something
+-rif_hier:rif_hbond_dump_fraction  0.0001
+-rif_hier:rif_apo_dump_fraction    0.00001
+
+
+
+
+
+# number of megabytes of ram to use for scratch space, if above this, condense rif
+# larger will be a bit faster, but could kill the machine 32G is probably safe
+# for machines with 128GB of RAM (dig27-34, bigs)
+-rif_accum_scratch_size_M 32000
+
+
+-dump_ntries 0
+-renumber_pdb
+
+-hash_cart_resl              0.6
+-hash_angle_resl            12.0
+
+-ignore_unrecognized_res
+
+-rif_hier::rf_oversample 2
+-rif_hier::rosetta_field_resl 0.1875
+-rif_hier::search_resolutions 3.0 1.5 0.75
+
+-rif_hier:score_threshold 99999
+
+-add_orbitals
+
+-rif_hier:beam_size_M 1000.0
+-rif_hier:hash_preallocate_mult 0.125
+-rif_hier:max_rf_bounding_ratio 4.0
+
+# dont change this
+-redundency_hack 0.0

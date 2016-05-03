@@ -1,0 +1,22 @@
+# this lever vs. cart/ang thing is confusing me some...
+# say 20A radius on average... roughly 1A every 3 degrees...
+# ang_bound = lever_bound / lever_radius * 180 / pi;
+# lever_radius = lever_bound / ang_bound * 180 / pi
+# lb = c(1,2,4,8,16)
+# ab = 10 + 3*c(1,2,4,8,16)
+# lb/ab * 180/pi
+#  4.407368  7.161972 10.417414 13.481360 15.805732
+
+
+-scheme:nbcache_path /work/sheffler/data/scheme_data
+
+
+-scheme:make_hacky_grids false
+
+-scheme:hash_cart_bounds    512    512     512     512     512
+-scheme:lever_bounds       16.0    8.0     4.0     2.0     1.0
+-scheme:hash_cart_resls     6.0    4.0     2.0     1.0     0.6
+-scheme:hash_ang_resls     12.0   12.0    12.0    12.0    12.0
+-scheme:lever_radii         23.6   18.78   13.32    8.42   4.85
+#       corresponding angs  38.8   24.4    17.2    13.6   11.8
+-scheme:verbose true

@@ -1,0 +1,80 @@
+-rif_accum_scratch_size_M 256000
+
+-rifgen:target           test_input/il17/tiny.pdb
+
+
+
+-dump_ntries 0
+-renumber_pdb
+
+-hash_cart_resl              0.7
+-hash_angle_resl            14.0
+
+
+
+# hour or so
+
+# ~ 250m, 650m, 2.5g
+-rifgen::rosetta_field_resl 0.1875
+-rifgen::search_resolutions 3.0 1.5 0.75
+#-rifgen::rosetta_field_resl 0.125
+#-rifgen::search_resolutions 4.0 2.0 1.0 0.5
+#-rifgen::rosetta_field_resl 0.125
+#-rifgen::search_resolutions 3.0 1.5 0.75 0.375
+
+-rifgen:score_threshold -0.5
+
+
+
+-rifgen:data_cache_dir    /work/sheffler/data/scheme_data
+-rifgen:outdir            testout
+-rifgen:outfile           test.rif
+
+-rifgen:score_cut_adjust 1.0
+
+-rifgen:apores VAL #ILE LEU MET PHE TRP
+#-rifgen:donres SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rifgen:accres SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+#-rifgen:donres LYS ARG SER THR TYR     GLN     ASN HIS HIS_D TRP # roughly in decreasing order of sample size REMOVED
+#-rifgen:accres         SER THR TYR GLU GLN ASP ASN HIS HIS_D
+
+
+-hbond_cart_sample_hack_range 0.25
+-hbond_cart_sample_hack_resl  0.25
+
+-rifgen:tip_tol_deg        60.0
+-rifgen:rot_samp_resl       6.0
+
+
+-rifgen:rif_hbond_dump_fraction  0.001
+-rifgen:rif_apo_dump_fraction    0.001
+
+-add_orbitals
+
+-rifgen:beam_size_M 10000.0
+-rifgen:hash_preallocate_mult 0.125
+-rifgen:max_rf_bounding_ratio 4.0
+
+
+
+-rifgen:hash_cart_resls   16.0   8.0   4.0   2.0   1.0
+-rifgen:hash_cart_bounds   512   512   512   512   512
+-rifgen:lever_bounds      16.0   8.0   4.0   2.0   1.0
+-rifgen:hash_ang_resls     38.8  24.4  17.2  13.6  11.8 # yes worky worky
+-rifgen:lever_radii        23.6 18.785501 13.324600  8.425850  4.855575
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!! rif files are:
+# -rif_dock:target_bounding_xmaps rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_BOUNDING_RIF_16.xmap.gz
+# -rif_dock:target_bounding_xmaps rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_BOUNDING_RIF_08.xmap.gz
+# -rif_dock:target_bounding_xmaps rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_BOUNDING_RIF_04.xmap.gz
+# -rif_dock:target_bounding_xmaps rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_BOUNDING_RIF_02.xmap.gz
+# -rif_dock:target_bounding_xmaps rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_BOUNDING_RIF_01.xmap.gz
+# -rif_dock:target_rif            rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif
+# !!!! make sure you copy rif_il17_test_apo0.5_resl0.5/rif_il17_test_apo0.5_resl0.5.rif_target.pdb and use it in docking!!!
+# !!!! grids for docking (-rifgen:target_rf_cache):
+# !!!!     rif_il17_test_apo0.5_resl0.5/__RF_fra_IL17_4hr9.pdb_CEN_trhash08107440_resl0.125_osamp2_replonlybdry
+# !!!! you will also need your input res list for docking: test_input/il17/fra_IL17_4hr9.res
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
