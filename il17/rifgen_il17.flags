@@ -1,4 +1,4 @@
--rif_accum_scratch_size_M 256000
+-rif_accum_scratch_size_M 32000
 
 #-rifgen:target           test_input/il17/tiny.pdb
 
