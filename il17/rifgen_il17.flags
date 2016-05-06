@@ -9,7 +9,6 @@
 
 
 
--dump_ntries 0
 -renumber_pdb
 
 -hash_cart_resl              0.7
