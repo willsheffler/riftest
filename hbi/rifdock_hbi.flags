@@ -1,15 +1,65 @@
+# the block below comes from the bottom of the log file from rif generation, just copy it
+# if you are running the docking in a different place than where you ran rif generation,
+# you will have to adjust these paths!
+
+########################################### what you need for docking ###########################################
+-rif_dock:target_pdb            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_target.pdb
+-extra_res_fa                   test_input/hbi/HBIh.params
+-rif_dock:target_rf_resl        0.125
+-rif_dock:target_rf_cache       rifgen_hbi/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.125_osamp2_replonlybdry
+-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
+-rif_dock:target_rif            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif
+#################################################################################################################
+
+# this is where the output will go, and how much
 -rif_dock:outdir results/test
 -rif_dock:dokfile all.dok
+-rif_dock:n_pdb_out 50 # max number of output pdbs
 
--require_satisfaction 3
+# set this to the number of hbonds to the target which are required
+# no way yet to explicity say which hbonds are required, but this gives
+# some control. searches will be much faster if this number is higher
+# of course, don't make it higher than the number of hbonds that can
+# actually be made
+-require_satisfaction 5
+
+###################################################################################################
+# these flags control the overall time the search will take. a few alternte options are included
+# setting the require_satisfaction flag above to a high vaule will make search faster across the 
+# board, so experiment with that also
+
+# reasonable defaults:
 -beam_size_M 10
+-hsearch_scale_factor 1.2
+
+# # very fast search, probably with low quality results
+# -beam_size_M 2
+# -hsearch_scale_factor 1.6
+
+# # slow thorough search
+# -beam_size_M 50
+# -hsearch_scale_factor 1.0
+
+####################################################################################################
+
+
+# score cut for the rosetta "score," which is kinda a ddg, but with hbond weighs highern
+-rif_dock:rosetta_score_cut -10.0
+
+# make this number higher to have less redundant results or lower to have more similar results
+# this is NOT a proper rmsd (yet), unfortunately, so if you want to tweak it you'll have to experiment
+-rif_dock:redundancy_filter_mag 1.5
+
+
+# probably don't change the rest of this stuff...
+
 -rif_dock::pack_iter_mult 4.0
 -rif_dock:hack_pack_frac 0.20
--hsearch_scale_factor 1.0
 -hack_pack true
-
--mute core.scoring.ScoreFunctionFactory
-
 
 -rif_dock::rf_resl 0.5
 -rif_dock::rf_oversample 2
@@ -25,23 +75,18 @@
 
 -rif_dock:upweight_iface 1.3
 -rif_dock:hbond_weight 3.0
--rif_dock:upweight_multi_hbond 0.0 # value of 1.0 could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
-
+-rif_dock:upweight_multi_hbond 1.0 # value of 1.0 could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
 
 -rif_dock:rosetta_score_fraction 0.01
 #-rif_dock:rosetta_score_then_min_below_thresh -20.0 # this is in "rif docking score units"
 #-rif_dock:rosetta_score_at_least 3000
 #-rif_dock:rosetta_score_at_most  30000
 -rif_dock:rosetta_min_fraction 0.14
--rif_dock:rosetta_score_cut -10.0
 
 -rif_dock:pdb_info_pikaa false # this is default I think
 -rif_dock:align_output_to_scaffold true
 
--rif_dock:global_score_cut -5.0
--rif_dock:n_pdb_out 50
--rif_dock:redundancy_filter_mag 1.5 # this is NOT an rmsd....
-
+-rif_dock:global_score_cut -10.0
 
 -rif_dock:scaffold_to_ala true
 -rif_dock:scaffold_to_ala_selonly false
@@ -51,32 +96,7 @@
 
 -add_orbitals
 
--extra_res_fa         test_input/hbi/HBIh.params
-
-
 #-rif_dock:target_tag conf01
 
 -rif_dock:target_rf_oversample 2
-
-########################################### what you need for docking ###########################################
--rif_dock:target_pdb            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_target.pdb
--rif_dock:target_rf_resl        0.125
--rif_dock:target_rf_cache       rifgen_hbi/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.125_osamp2_replonlybdry
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_16.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_08.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
--rif_dock:target_rif            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif
-#################################################################################################################
-############################################ what you need for docking ###########################################
-#-rif_dock:target_pdb            rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_target.pdb
-#-rif_dock:target_rf_resl        0.125 
-#-rif_dock:target_rf_cache       rifgen_hbi/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.125_osamp2_replonlybdry
-#-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_16.xmap.gz
-#-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_08.xmap.gz
-#-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
-#-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
-#-rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
-#-rif_dock:target_rif            rifgen_hbi/hbi_resl0.5_sca1.3_hb30_6_hb2umh1_sat5.rif.gz
-##################################################################################################################
+-mute core.scoring.ScoreFunctionFactory
