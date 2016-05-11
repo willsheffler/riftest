@@ -28,7 +28,7 @@
 -beam_size_M 10
 -hsearch_scale_factor 1.6
 
--rif_dock:redundancy_filter_mag 1.5
+-rif_dock:redundancy_filter_mag 1.0
 
 
 # probably don't change the rest of this stuff...
