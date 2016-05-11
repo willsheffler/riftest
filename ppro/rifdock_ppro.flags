@@ -67,11 +67,11 @@
 -rif_dock:hbond_weight 3.0
 -rif_dock:upweight_multi_hbond 1.0 # value of 1.0 could up to double hbscore if bidentate, triple if tridentate... best in conjunction with low-ish starting hbweight
 
--rif_dock:rosetta_score_fraction 0.01
+#-rif_dock:rosetta_score_fraction 0.01
 #-rif_dock:rosetta_score_then_min_below_thresh -20.0 # this is in "rif docking score units"
 #-rif_dock:rosetta_score_at_least 3000
 #-rif_dock:rosetta_score_at_most  30000
--rif_dock:rosetta_min_fraction 0.14
+#-rif_dock:rosetta_min_fraction 0.14
 
 -rif_dock:pdb_info_pikaa false # this is default I think
 -rif_dock:align_output_to_scaffold true
