@@ -17,7 +17,7 @@
 # this is where the output will go, and how much
 -rif_dock:outdir results/botu_test
 -rif_dock:dokfile all.dok
--rif_dock:n_pdb_out 20 # max number of output pdbs
+-rif_dock:n_pdb_out 30 # max number of output pdbs
 
 ###################################################################################################
 # these flags control the overall time the search will take. a few alternte options are included
@@ -28,7 +28,7 @@
 -beam_size_M 10
 -hsearch_scale_factor 1.6
 
--rif_dock:redundancy_filter_mag 1.0
+-rif_dock:redundancy_filter_mag 1.5
 
 
 # probably don't change the rest of this stuff...
