@@ -12,7 +12,7 @@
 -rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
 -rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
 -rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
--rif_dock:target_rif            ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif
+-rif_dock:target_rif            ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz
 #################################################################################################################
 
 # this is where the output will go, and how much
