@@ -3,29 +3,29 @@
 # you will have to adjust these paths!
 
 ########################################### what you need for docking ###########################################
--rif_dock:target_pdb            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_target.pdb
--extra_res_fa                   test_input/hbi/HBIh.params
+-rif_dock:target_pdb            ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_target.pdb
+-in:file:extra_res_fa           ./test_input/hbi/HBIh.params
 -rif_dock:target_rf_resl        0.125
--rif_dock:target_rf_cache       rifgen_hbi/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.125_osamp2_replonlybdry
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_16.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_08.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
--rif_dock:target_bounding_xmaps rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
--rif_dock:target_rif            rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif
+-rif_dock:target_rf_cache       ./rifgen_hbi/__RF_HBIh_0001.pdb_CEN_trhash54435770_resl0.125_osamp2_replonlybdry
+-rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_16.xmap.gz
+-rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_08.xmap.gz
+-rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_04.xmap.gz
+-rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_02.xmap.gz
+-rif_dock:target_bounding_xmaps ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz_BOUNDING_RIF_01.xmap.gz
+-rif_dock:target_rif            ./rifgen_hbi/hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz
 #################################################################################################################
 
 # this is where the output will go, and how much
--rif_dock:outdir results/test
+-rif_dock:outdir results/hbi_test
 -rif_dock:dokfile all.dok
--rif_dock:n_pdb_out 50 # max number of output pdbs
+-rif_dock:n_pdb_out 20 # max number of output pdbs
 
 # set this to the number of hbonds to the target which are required
 # no way yet to explicity say which hbonds are required, but this gives
 # some control. searches will be much faster if this number is higher
 # of course, don't make it higher than the number of hbonds that can
 # actually be made
--require_satisfaction 5
+-require_satisfaction 4
 
 ###################################################################################################
 # these flags control the overall time the search will take. a few alternte options are included
@@ -33,15 +33,15 @@
 # board, so experiment with that also
 
 # reasonable defaults:
--beam_size_M 10
+-beam_size_M 5
 -hsearch_scale_factor 1.2
 
 # # very fast search, probably with low quality results
-# -beam_size_M 2
+# -beam_size_M 1
 # -hsearch_scale_factor 1.6
 
 # # slow thorough search
-# -beam_size_M 50
+# -beam_size_M 30
 # -hsearch_scale_factor 1.0
 
 ####################################################################################################
@@ -95,6 +95,8 @@
 -bonus_to_native_scaffold_res          0 # -0.5
 
 -add_orbitals
+
+-database /work/sheffler/rosetta/librosetta/database
 
 #-rif_dock:target_tag conf01
 

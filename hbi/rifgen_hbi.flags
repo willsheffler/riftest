@@ -6,7 +6,7 @@
 # change the rifgen_hbi and outfile to whatever is appropriate
 -rifgen:outdir         ./rifgen_hbi
 -rifgen:data_cache_dir ./rifgen_hbi /work/sheffler/data/scheme_data
--rifgen:outfile hbi_resl0.7_sca0.8_hb30_6_hb2umh1_sat5.rif.gz
+-rifgen:outfile hbi_resl0.7_sca1.0_hb30_6_hb2umh1_sat5.rif.gz
 
 -rifgen:apores VAL ILE LEU MET PHE           # apolar residue types
 -rifgen:donres SER THR TYR GLN ASN HIS HIS_D # donor residue types
@@ -22,11 +22,12 @@
 # more possible hydrophobic interactions to be found, but will make
 # the rif bigger and make the search take longer. if you don't care
 # much about hydrophobic interactions, or only want a few good ones
-# raise this number to 1 or 1.2 (fine to play with it)
--rifgen:score_cut_adjust 0.8
+# raise this number to maybe 1.2 (fine to play with it) OR if you 
+# aren't getting good hydrophobic packing, lower it to maybe 0.8 or 0.7.
+-rifgen:score_cut_adjust 1.0
 
 -rifgen:score_threshold -0.5       # max acceptable score to go in rif
--rifgen:hbond_weight 2.0           # max hbond score (in ~REU)
+-rifgen:hbond_weight 2.0           # max score per-hbond
 -rifgen:upweight_multi_hbond 1.0   # extra score factor for bidentate hbonds
 
 # params for super-fussy hbonder search
@@ -50,7 +51,7 @@
 
 # probably don't change this stuff
 
--rif_accum_scratch_size_M 32000 # 250gb, jojo only!
+-rif_accum_scratch_size_M 24000 # 250gb, jojo only!
 
 -rifgen:beam_size_M 10000.0
 -rifgen:hash_preallocate_mult 0.125
